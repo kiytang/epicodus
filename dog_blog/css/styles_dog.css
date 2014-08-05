@@ -1,0 +1,23 @@
+h1 {
+	color: blue;
+	text-align: center;
+	font-size: 50px;
+}
+
+h3 {
+	color: red;
+}
+
+p {
+	font-family: sans-serif; 
+}
+
+.dog {
+	font-weight: 900;
+	font-family: arial;
+}
+
+.happy {
+	font-style: italic;
+	font-size: 40px;
+}
