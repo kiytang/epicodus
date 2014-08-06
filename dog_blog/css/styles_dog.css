@@ -12,6 +12,14 @@ p {
 	font-family: sans-serif; 
 }
 
+p.intro {
+	color: green;
+}
+
+p.first_day {
+	color: #00FFFF ;
+}
+
 .dog {
 	font-weight: 900;
 	font-family: arial;
@@ -20,4 +28,5 @@ p {
 .happy {
 	font-style: italic;
 	font-size: 40px;
+	color: #8e44ad;
 }
