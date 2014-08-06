@@ -1,0 +1,12 @@
+.important {
+	color: red;
+}
+
+.unimportant {
+	color: blue;
+}
+
+.fish-type {
+	font-style: italic;
+	font-size: 28px;
+}
