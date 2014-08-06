@@ -12,7 +12,7 @@ p {
 	font-family: sans-serif; 
 }
 
-p.intro {
+.intro {
 	color: green;
 }
 
@@ -23,6 +23,7 @@ p.first_day {
 .dog {
 	font-weight: 900;
 	font-family: arial;
+	font-size: 50px;
 }
 
 .happy {
