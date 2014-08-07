@@ -1,0 +1,51 @@
+/*Make a new stylesheet for both your my-first-webpage.html 
+and favorite-things.html. Link the single stylesheet from 
+both pages, and use the same rules so that you have a 
+consistent style between the two documents.*/
+
+
+h1 {
+	color: #d35400;
+	text-align: center;
+	font-size: 66px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 28px ;
+}
+
+h3 {
+	color: #2ecc71;
+	font-size: 50px;
+	font-weight: 900;
+}
+
+p {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+ul {
+	line-height: 30px;
+	font-size: 20px;
+	color: #8e44ad;
+}
+
+li {
+	font-size: 20px;
+}
+
+.flashy {
+	color: red;
+	font-style: italic;
+}
+
+.write {
+	font-style: italic;
+	font-size: 80px;
+}
+
+.front_end {
+	text-align: center
+}
