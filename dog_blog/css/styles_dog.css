@@ -13,7 +13,7 @@ p {
 }
 
 .intro {
-	color: green;
+	color: red;
 }
 
 p.first_day {
@@ -30,4 +30,10 @@ p.first_day {
 	font-style: italic;
 	font-size: 40px;
 	color: #8e44ad;
+}
+
+.about_me {
+	float: right;
+	width: 400px;
+	background-color: yellow;
 }
