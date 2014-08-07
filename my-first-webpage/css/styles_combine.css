@@ -49,3 +49,8 @@ li {
 .front_end {
 	text-align: center
 }
+
+.sidebar {
+	float: right;
+	background-color: yellow;
+}
