@@ -8,3 +8,14 @@
 h1 {
 	font-family: sans-serif;
 }
+
+.sidebar {
+	float: right;
+	background-color: yellow;
+	width: 400px;
+}
+
+img {
+	float:right;
+}
+
