@@ -3,6 +3,9 @@
 	
 	Task2:
 	Update your favorite things page and your first webpage with some spans to style specific parts of text.
+
+	Task 3:
+	Redesign your favorite things page to have columns for each category of favorite.
 -->
 
 
@@ -15,52 +18,59 @@
 
 	<body>
 		<h1>My favourite things</h1>
-		<h2>These are a few of my <em>favorite things</em></h2>
+		<h2>These are a few of my <em>favorite life comforts</em></h2>
 
-		<h3>Foods</h3>
-		<img src="img/Foods.jpg" alt="A picture of foods">
-		<p>Here <span class="fav">are</span> some of my <em>favorite foods!</em></p>
-		<ul>
-			<li>Chinese
+		<div class=big_column>
+			<div class="columns">		
+				<h3>Cusine</h3>
+	<!-- 			<img src="img/Foods.jpg" alt="A picture of foods"> -->
+				<p>Here <span class="fav">are</span> some of my <em>favorite foods!</em></p>
 				<ul>
-					<li>
-						<a href="http://www.timhowan.com">
-							Dim-Sum
-						</a>
+					<li>Chinese
+						<ul>
+							<li>
+								<a href="http://www.timhowan.com">
+									Dim-Sum
+								</a>
+							</li>
+						</ul>
 					</li>
-				</ul>
-			</li>
 
-			<li class="best">Japanese:</li>
-				<ul>
-					<li>
-						<a href="http://www.sushi-jiro.jp/eng-index.html">
-							Sushi<!-- <img src="img/chef_jiro.jpg" -->
-						</a>	
-					</li>
-					<li>
-						<a href="http://www.ichiran.co.jp/english/index.html">	Ramen
-						</a>
-					</li>
-				</ul>
-			<li>Italian</li>
-				<ul>
-					<li>
-						<a href="http://it-it.facebook.com/pages/Orange-			Pizza/442755709137470">
-							Pizza
-						</a>
+					<li class="best">Japanese:</li>
+						<ul>
+							<li>
+								<a href="http://www.sushi-jiro.jp/eng-index.html">
+									Sushi<!-- <img src="img/chef_jiro.jpg" -->
+								</a>	
+							</li>
+							<li>
+								<a href="http://www.ichiran.co.jp/english/index.html">	Ramen
+								</a>
+							</li>
+						</ul>
+					<li>Italian</li>
+						<ul>
+							<li>
+								<a href="http://it-it.facebook.com/pages/Orange-			Pizza/442755709137470">
+									Pizza
+								</a>
 
-					</li>
+							</li>
+						</ul>
 				</ul>
-		</ul>
-		
-		<h3>Flavours <span class="fav">of</span> Gelato</h3>	
-		<p>These are my <span class="number">three</span> favorites, in order:</p>
-		<ol>
-			<li class="best">cioccolato fondente</li>
-			<li>pistacchio</li>
-			<li>cookie-dough</li>
-		</ol>
+			</div>
+			
+			<div class="columns">
+				<h3>Flavours <span class="fav">of</span> Gelato</h3>	
+				<p>These are my <span class="number">three</span> favorites, in order:</p>
+				<ol>
+					<li class="best">cioccolato fondente</li>
+					<li>pistacchio</li>
+					<li>cookie-dough</li>
+				</ol>
+			</div>
+		</div>
+
 
 		<p><span class="fav">Thanks</span> for reading about <spam class="fav">me!</span></p>
 	</body>

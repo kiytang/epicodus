@@ -1,6 +1,7 @@
 h1 {
 	color: blue;
-	text-align: center
+	text-align: center;
+	font-size: 90px;
 }
 
 h2 {
@@ -32,4 +33,16 @@ ul {
 .number {
 	color: red;
 	font-family: baskerville;
+}
+
+.big_column {
+	width: 900px;
+}
+/*img {
+	float: right;
+}*/
+
+.columns {
+	width: 400px;
+	float: left;
 }
