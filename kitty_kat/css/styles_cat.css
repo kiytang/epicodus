@@ -27,6 +27,13 @@ p.honest {
 	font-size: 20px;
 }
 
-.me {
-	color: red;
+img {
+	float: left;
+}
+
+.sidebar {
+	width: 30%;
+	background-color: yellow;
+	float: right;
+
 }
