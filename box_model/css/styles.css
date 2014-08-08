@@ -1,0 +1,14 @@
+.intro {
+	font-style: italic;
+	color: red;
+	text-align: center;
+}
+
+.box {
+  border: 10px solid green;
+  font-size: 20px;
+  padding: 6px;
+  margin: 12px;
+  background-color: orange;
+
+}
