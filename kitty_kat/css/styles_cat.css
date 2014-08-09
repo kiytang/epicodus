@@ -25,15 +25,22 @@ p.honest {
 .about_me {
 	text-align: center;
 	font-size: 20px;
+	border: 8px solid red;
 }
 
 img {
 	float: left;
+	padding: 20px;
+	border: 8px solid black;
+	padding: 5px;
+	margin: 20px;
+	background-color: red
 }
 
 .sidebar {
 	width: 30%;
 	background-color: yellow;
 	float: right;
+	border: 3px dashed red;
 
 }
