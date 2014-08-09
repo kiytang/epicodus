@@ -6,3 +6,8 @@ p.bye {
 	color: blue;
 	text-align: center;
 }
+
+body {
+	font-family: sans-serif;
+	font-size: 28px;
+}
