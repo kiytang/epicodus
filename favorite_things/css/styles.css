@@ -42,11 +42,18 @@ ul {
 	float: right;
 }*/
 
-.columns {
+.columns_first {
 	width: 400px;
 	float: left;
+	background-color: green
 }
 
+.columns_second {
+	width: 400px;
+	float: left;
+	background-color: orange
+	
+}
 .sidebar {
 	float: right;
 	background-color: yellow;
