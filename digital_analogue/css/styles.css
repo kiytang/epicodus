@@ -1,0 +1,15 @@
+.digital p {
+	background-color: red
+}
+
+.analogue p {
+	background-color: yellow;
+}
+
+.digital p a {
+	font-weight: 900;
+}
+
+.analogue p a {
+	font-style: italic;
+}
