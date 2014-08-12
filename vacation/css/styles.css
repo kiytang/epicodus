@@ -1,0 +1,24 @@
+h1 {
+	color: blue;
+}
+
+.jumbotron {
+	padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: grey;
+  text-align: center;
+}
+
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+.container .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 80px;
