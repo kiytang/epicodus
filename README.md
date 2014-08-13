@@ -19,12 +19,15 @@
 
 
 ###Task:
-Add columns and rows to your vacation page.
+- Add columns and rows to your vacation page.
 To complete this section I implemented Bootstrap "Example: Stacked-to-horizontal" code into my 'Vaction' web page. To furhter highlight the difference in rows and columns, I assigned specfic colors as folows:
 - .col-md-1: blue
 - .col-md-4: white
 - .col-md-6: yellow
 - .col-md-8: green
+
+###Screenshoot:
+![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot4.png)
 
 
 
