@@ -6,5 +6,9 @@
 
 ###Screenshoot:
 ![Vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot1.png)
+
 - Override some of Bootstrap's styles with your own. Use a second stylesheet; don't change Bootstrap's code!
+
+###Screenshoot:
+![Vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot2.png)
 - Search for Bootstrap themes, and pick out another theme built with Bootstrap. Replace Bootstrap's origin CSS with the theme's CSS.
