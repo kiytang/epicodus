@@ -8,12 +8,16 @@ Make the picture of your cat float to one side on its homepage.
 
 Task 4:
 Add some padding around the images on your cat's homepage.
+
+Task 5:
+Rework one of your existing pages to use Bootstrap's grid.
 -->
 
 <!DOCTYPE html>
 <html>
 	<head>
 		<link href="css/styles_cat.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 		<title>kitty-kat adventures</title>
 	</head>
 
@@ -30,9 +34,9 @@ Add some padding around the images on your cat's homepage.
 			<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
 			"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?""Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
 
-		<h3>What do I really think about humans</h1>
 		<div class="sidebar">	
-			<p>My real true thoughts</p>
+			<h3>What do I really think about humans</h1>	
+		  <p>My real true thoughts</p>
 			<ul>
 				<li>Selfish</li>
 				<li>Enjoy telling fibs</li>
@@ -56,5 +60,14 @@ Add some padding around the images on your cat's homepage.
 			<li>good looks</li>
 			<li>Power!!!</li>
 		</ul>
+
+    <!-- Rows must be placed within a .container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"><h3>How I construct my day</h3>Wake up at 6am, clean and refresh, drink a full glass of hot water (sometimes I add a piece of ginger), meditate for 10 minutes, stretch for 5 minutes and and then eat breakfast which consists of porridge or cereals with soya milk</div>
+        <div class="col-md-4"><h3>Nutrional Values</h3>Currently I am trying to adopt more of a plant based diet: balanced diet is key- Also I am trying to improve my awareness in understanding food produce.</div>
+        <div class="col-md-4"><h3>What I am currently Reading</h3>At any given moment in time, I will be reading three books depening on what I fancy. Currently my library consists of: Einstein-His life and Universe by Walter Isaacson, Create your own Religion by Daniele Bolelli and The Roboot with Joe by Joe Cross</div>
+      </div>
+    </div>
 	</body>
 </html>
