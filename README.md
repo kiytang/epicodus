@@ -38,5 +38,21 @@ To complete this section I implemented Bootstrap "Example: Stacked-to-horizontal
 ###Screenshoot:
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot4.png)
 
+##Day 14
+###Task:
+
+- Rework one of your existing pages to use Bootstrap's grid.
+For theis task I made use of Bootstraps's ".col-md-4", to include three subject topics:
+- How I construct my day
+- Nutrtional Values
+- What I am currently Reading
+
+**What I learnt:
+Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.
+
+###Screenshoot:
+![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot5.png)
+
+
 
 
