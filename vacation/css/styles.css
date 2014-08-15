@@ -355,3 +355,17 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.col-md-1 {
+    color: blue;
+}
+.col-md-4 {
+    color: white;
+}
+
+.col-md-6 {
+    color: yellow;
+}
+.col-md-8 {
+    color: green;
+}
