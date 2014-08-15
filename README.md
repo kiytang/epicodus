@@ -69,6 +69,9 @@ Skeleton contains a "one-third" class which allows one to split the width into t
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 The viewpoint declaration makes sure that whatever the viewport size is, make the initial scale equal to 1 which is eqivalent to 100%, same applies to the maximum-scale. The aim is that a visitor who visits the site using a iOS device, they will be unable to pinch and zoom as this will defeat the purpose of responsive design.
 
+###Screenshoot:
+![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot6.png)
+
 
 
 
