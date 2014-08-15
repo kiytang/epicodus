@@ -62,12 +62,14 @@
  
 #nav {
     margin: 13px 0 0 0;
+
 }
  
 #nav ul li {
     display: inline;
     margin: 0 20px 0 0;
-    margin-bottom: 130px;
+    margin-bottom: 10px;
+    float: right;
 }
  
 #nav a {
@@ -80,6 +82,16 @@
 
 #headerImage img {
 	margin-bottom: 50px;
+	max-width: 100%;
+	height: auto;
+}
+
+#welcome {
+	margin-bottom: 20px;
+}
+
+.feature img {
+	margin-bottom: 15px;
 	max-width: 100%;
 	height: auto;
 }
