@@ -72,6 +72,8 @@ The viewpoint declaration makes sure that whatever the viewport size is, make th
 ###Screenshoot:
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot6.png)
 
+##Day 15
 
+Today I read more on Skeletons'offsets' feature. From my understanding,  one uses offset-by-(size... one, three, seven, fifteen.....) to create gutters/gaps in between blocks in one row.
 
 
