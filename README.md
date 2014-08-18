@@ -79,7 +79,7 @@ Today I read more on Skeletons'offsets' feature. From my understanding,  one use
 ##Day 17
 
 ###Task:
-Make a page about your favorite sports team with Skeleton, which is very easy to set up.
+Make a page about your favorite sports team with Skeleton.
 
 ## What I learnt:
 Tested out buttons with my sports page. For this task I used both a standard size and full-width button.
