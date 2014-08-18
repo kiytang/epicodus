@@ -105,7 +105,7 @@ class="button">More Info.</a>
 ###Task:
 Pick one of your pages that has images on it. Create a class for images that should not be shown on small screens. Add a media query that hides these images (using display: none) on smaller screen sizes.
 
-To acomplish this task I created the following class for the image:
+To complete this task I created the following class for the image:
 
 ```
 <img src="img/cat.gif" alt="A photo of cat with optical glasses" class="small_image">
@@ -122,5 +122,9 @@ In order for the image to not display on a typical small screen device, I used t
 }
 
 ```
+
+## What I learnt:
+- min-width
+This sets the minimum browser width that the specified styles are applied to. If the 
 
 
