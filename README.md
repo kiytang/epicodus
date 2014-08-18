@@ -4,17 +4,17 @@
 ###Task:
 Make a new webpage about a place you'd like to go on vacation. Use Bootstrap for your styles.
 
-###Screenshoot:
+###Screenshot:
 ![Vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot1.png)
 
 - Override some of Bootstrap's styles with your own. Use a second stylesheet; don't change Bootstrap's code!
 
-###Screenshoot:
+###Screenshot:
 ![Vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot2.png)
 
 - Search for Bootstrap themes, and pick out another theme built with Bootstrap. Replace Bootstrap's origin CSS with the theme's CSS.
 
-###Screenshoot:
+###Screenshot:
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot3.png)
 
 
@@ -50,7 +50,7 @@ For theis task I made use of Bootstraps's ".col-md-4", to include three subject 
 ## What I learnt:
 Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.
 
-###Screenshoot:
+###Screenshot:
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot5.png)
 
 ##Day 15
@@ -69,7 +69,7 @@ Skeleton contains a "one-third" class which allows one to split the width into t
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 The viewpoint declaration makes sure that whatever the viewport size is, make the initial scale equal to 1 which is eqivalent to 100%, same applies to the maximum-scale. The aim is that a visitor who visits the site using a iOS device, they will be unable to pinch and zoom as this will defeat the purpose of responsive design.
 
-###Screenshoot:
+###Screenshot:
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot6.png)
 
 ##Day 16
@@ -82,7 +82,10 @@ Today I read more on Skeletons'offsets' feature. From my understanding,  one use
 Make a page about your favorite sports team with Skeleton, which is very easy to set up.
 
 ## What I learnt:
-Tested out buttons with my sports page. For this task I used both a standard size and full-width button. 
+Tested out buttons with my sports page. For this task I used both a standard size and full-width button.
+
+####Screenshot
+![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot7.png)
 
 
 
