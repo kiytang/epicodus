@@ -100,5 +100,27 @@ class="button">More Info.</a>
 ####Screenshot
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot7.png)
 
+##Day 18
+
+###Task:
+Pick one of your pages that has images on it. Create a class for images that should not be shown on small screens. Add a media query that hides these images (using display: none) on smaller screen sizes.
+
+To acomplish this task I created the follwing class for the image:
+
+```
+class="small_image"
+```
+
+In order for the image to not display on a typical small screen device, I used the following @media query:
+
+
+``` 
+@media (min-width: 0px) and (max-width:400px){
+	.small_image {
+		display: none;
+	}
+}
+
+```
 
 
