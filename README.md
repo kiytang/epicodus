@@ -82,7 +82,7 @@ Today I read more on Skeletons'offsets' feature. From my understanding,  one use
 Make a page about your favorite sports team with Skeleton.
 
 ## What I learnt:
-Incorporated buttons within my sports page. For this task I used both:
+Incorporated buttons within my sports page. For this task I used two types:
 - a standard size: 
 
 ```sh
