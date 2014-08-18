@@ -44,3 +44,9 @@ img {
 	border: 3px dashed red;
 
 }
+
+@media (min-width:400px) and (max-width: 991px){
+	.small_image {
+		display: none;
+	}
+}
