@@ -72,8 +72,17 @@ The viewpoint declaration makes sure that whatever the viewport size is, make th
 ###Screenshoot:
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot6.png)
 
-##Day 15
+##Day 16
 
 Today I read more on Skeletons'offsets' feature. From my understanding,  one uses offset-by-(size... one, three, seven, fifteen.....) to create gutters/gaps in between blocks in one row.
+
+##Day 17
+
+###Task:
+Make a page about your favorite sports team with Skeleton, which is very easy to set up.
+
+## What I learnt:
+Tested out buttons with my sports page. For this task I used both a standard size and full-width button. 
+
 
 
