@@ -82,7 +82,20 @@ Today I read more on Skeletons'offsets' feature. From my understanding,  one use
 Make a page about your favorite sports team with Skeleton.
 
 ## What I learnt:
-Tested out buttons with my sports page. For this task I used both a standard size and full-width button.
+Incorporated buttons within my sports page. For this task I used both:
+- a standard size: 
+
+```sh
+<a href="http://en.wikipedia.org/wiki/José_Mar%C3%ADa_Olazábal" 
+class="button">More Info.</a>
+
+```
+
+- full-width button.
+
+```sh
+<a href="#" class="full-width button">Email</a>
+```
 
 ####Screenshot
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot7.png)
