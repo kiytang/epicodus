@@ -128,3 +128,11 @@ In order for the image to not display on a typical small screen device, I used t
 This sets the minimum browser width that the specified styles are applied to. If the 
 
 
+##Day 19
+
+###Task:
+Make a page about your best friend with Foundation.
+
+
+
+
