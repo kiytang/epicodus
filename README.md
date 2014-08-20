@@ -21,20 +21,21 @@ Make a new webpage about a place you'd like to go on vacation. Use Bootstrap for
 ###Task:
 Add columns and rows to your vacation page.
 To complete this section I implemented Bootstrap "Example: Stacked-to-horizontal" code into my 'Vaction' web page. To furhter highlight the difference in rows and columns, I assigned specfic colors as folows:
-- .col-md-1 {
+```sh
+ .col-md-1 {
     color: blue;
 }
-- .col-md-4 {
+ .col-md-4 {
     color: white;
 }
 
-- .col-md-6 {
+ .col-md-6 {
     color: yellow;
 }
-- .col-md-8 {
+ .col-md-8 {
     color: green;
 }
-
+```
 ###Screenshoot:
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot4.png)
 
