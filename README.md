@@ -167,9 +167,9 @@ In the above div, there are two classes
 
 As there are 12 columns in total, small-8 means that this div will account for 8 out of the 12 columns. In Foundation, 'small' ensures that the grid remains the same for all devices. This is in contrast to both 'medium' and 'large' grids where at specific break points the columns will stack ontop of each other. 
 
-####Screenshot
-Here I have reduced the scrren size to its lowest width, as you can see the columns as per the small-grid feature, remains unstacked. 
+In the sceenshot below, I have reduced the screen size to its lowest width.As you can see the columns as per the small-grid feature, remains unstacked. 
 
+####Screenshot
 ![small_grid](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot8.png)
 
 
