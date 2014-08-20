@@ -137,9 +137,9 @@ Make a page about your best friend with Foundation.
 
 Inside the CSS folder provided by Foundation, there consists of three separate files, two of which I had to research more to further understand:
 - foundation.min.css
-This particular files is essentially the same as foundation.css, where it differs is that the .min files has had all its spaces and returns removed- The purpose is to reduce file size to minimize load times. 
+	This particular files is essentially the same as foundation.css, where it differs is that the .min files has had all its spaces and returns removed- The purpose is to reduce file size to minimize load times. 
 - normailize.css 
-To demonstrate one of the many uses of this file, I will base my example by using unordered-list. Some browsers will use margin to push an unordered list off the edge the page, whilst others may use padding. For the purpose of consistency, Normalize will set everything up to use either margin or padding. 
+	To demonstrate one of the many uses of this file, I will base my example by using unordered-list. Some browsers will use margin to push an unordered list off the edge the page, whilst others may use padding. For the purpose of consistency, Normalize will set everything up to use either margin or padding. 
 
 
 
