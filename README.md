@@ -141,8 +141,8 @@ Inside the CSS folder provided by Foundation, there consists of three separate f
 - normailize.css 
 	To demonstrate one of the many uses of this file, I will base my example by using unordered-list. Some browsers will use margin to push an unordered list off the edge the page, whilst others may use padding. For the purpose of consistency, Normalize will set everything up to use either margin or padding. 
 
-- Foundation small grid system:
-Foundation consists of a default 12 grid system. The simplest way to set up a grid system is by creating a <div> tag with class of row. Each row consists of 12 columns, so we are able to create as many instances as possible so long as the total amounts to 12. 
+- Foundation's small grid system:
+Foundation consists of a default 12 grid system. The simplest way to set up a grid system is by creating a div tag with class of row. Each row consists of 12 columns, so we are able to create as many instances as possible so long as the total amounts to 12. 
 
 Example:
 ```sh
@@ -168,6 +168,7 @@ In the above div, there are two classes
 As there are 12 columns in total, small-8 means that this div will account for 8 out of the 12 columns. In Foundation, 'small' ensures that the grid remains the same for all devices. This is in contrast to both 'medium' and 'large' grids where at specific break points the columns will stack ontop of each other. 
 
 ####Screenshot
+Here I have reduced the scrren size to its lowest width, as you can see the columns as per the small-grid feature, remains unstacked.
 ![small_grid](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot8.png)
 
 
