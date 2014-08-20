@@ -121,7 +121,6 @@ In order for the image to not display on a typical small screen device, I used t
 		display: none;
 	}
 }
-
 ```
 
 ## What I learnt:
