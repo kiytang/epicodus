@@ -115,7 +115,7 @@ To complete this task I created the following class for the image:
 In order for the image to not display on a typical small screen device, I used the following @media query:
 
 
-``` 
+```sh
 @media (min-width: 0px) and (max-width:400px){
 	.small_image {
 		display: none;
@@ -141,6 +141,32 @@ Inside the CSS folder provided by Foundation, there consists of three separate f
 	This particular files is essentially the same as foundation.css, where it differs is that the .min files has had all its spaces and returns removed- The purpose is to reduce file size to minimize load times. 
 - normailize.css 
 	To demonstrate one of the many uses of this file, I will base my example by using unordered-list. Some browsers will use margin to push an unordered list off the edge the page, whilst others may use padding. For the purpose of consistency, Normalize will set everything up to use either margin or padding. 
+
+- Foundation small grid system:
+Foundation consists of a default 12 grid system. The simplest way to set up a grid system is by creating a <div> tag with class of row. Each row consists of 12 columns, so we are able to create as many instances as possible so long as the total amounts to 12. 
+
+Example:
+```sh
+ <div class="row">
+      <div class="small-8 columns">
+        <p>This is 8 small columns</p>
+      </div>
+      <div class="small-4 columns">
+        <p>This is 4 small columns wide</p>  
+      </div>
+    </div>
+```
+
+Note:
+```sh
+<div class="small-8 columns">
+
+```
+In the above div, there are two classes
+- class of 'columns'
+- class of 'small-8'
+
+As there are 12 columns in total, small-8 means that this div will account for 8 out of the 12 columns. In Foundation, 'small' ensures that the grid remains the same for all devices. This is in contrast to both 'medium' and 'large' grids where at specific break points the columns will stack ontop of each other. 
 
 
 
