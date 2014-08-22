@@ -240,5 +240,9 @@ In order to convert the markup of the unordered list to a block grid that contai
 Note:   
 In this example I only accommodated for medium resolution, to cater for small resolutions, we can add the following (I used 2 images for this example):
 
+```sh
+<ul class="medium-block-grid-3 small-block-grid-2">
+```
+
 
 
