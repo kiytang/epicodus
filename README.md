@@ -169,9 +169,42 @@ As there are 12 columns in total, small-8 means that this div will account for 8
 
 In the sceenshot below, I have reduced the screen size to its lowest width.As you can see the columns as per the small-grid feature, remains unstacked. 
 
-####Screenshot
+####Screenshot:
 ![small_grid](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot8.png)
 
+##Day 20
+Continuing with learning Foundation:
+
+- Combining grids in a single div:
+This allows one to specify in advanced the layout dimensions for various devices:tablets, mobile and desktop.
+
+Example:
+
+```sh
+   <div class="row">
+      <aside class="medium-3 small-9 columns">
+        <p>Spanning 3 columns.</p>
+      </aside>
+      <section class="medium-9 small-3 columns">
+        <p>Spanning a big space of 9  columns. No matter how big or small my screen browser gets, there will always be 2 columns
+        </p>
+      </section>
+    </div>
+```
+
+In the above, I introduced two classes (medium and small) together:
+
+```sh
+<aside class="medium-3 small-9 columns">
+```
+Outcome:
+
+- For the medium dimensions, the relevant content will occupy three columns.
+
+- When the break point for the medium occurs, by default Foundation will result in the content being stacked on top of each other vertically. However, as I have specified a small class, the result is a switch to the specified small grid system.
 
 
+
+
+##Day 21
 
