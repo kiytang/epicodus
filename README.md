@@ -230,11 +230,15 @@ The following sample below will result in a unordered list of bulleted images.
       </div>
     </div>    
 ```
-In order to convert the markup of the this unordered list to a block grid that contains three pieces of content placed across each row (medium size), add the following class to <ul>:
+In order to convert the markup of the unordered list to a block grid that contains three pieces of content placed across each row (medium size), add the following class to 'ul':
 
 
 ```sh
 <ul class="medium-block-grid-3">
 ```
+
+Note:   
+In this example I only accommodated for medium resolution, to cater for small resolutions, we can add the following (I used 2 images for this example):
+
 
 
