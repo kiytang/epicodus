@@ -125,7 +125,7 @@ In order for the image to not display on a typical small screen device, I used t
 
 ## What I learnt:
 - min-width
-This sets the minimum browser width that the specified styles are applied to. If the 
+This sets the minimum browser width that the specified styles are applied to.
 
 
 ##Day 19
@@ -175,7 +175,7 @@ In the sceenshot below, I have reduced the screen size to its lowest width.As yo
 ##Day 20
 Continuing with learning Foundation:
 
-- Combining grids in a single div:
+###Task:Combining grids in a single div
 This allows one to specify in advanced the layout dimensions for various devices:tablets, mobile and desktop.
 
 Example:
@@ -203,8 +203,38 @@ Outcome:
 
 - When the break point for the medium occurs, by default Foundation will result in the content being stacked on top of each other vertically. However, as I have specified a small class, the result is a switch to the specified small grid system.
 
-
-
-
 ##Day 21
+
+###Task:
+Applying offsets in the grid
+
+Centering columns
+
+Nested grid systems
+
+Block grids:    
+This places a series of items into rows and grids.
+The following sample below will result in a unordered list of bulleted images.
+
+```sh
+    <div class="row">
+      <div class="large-9 columns">
+          <ul>
+            <li><img src="img/sfbook.jpg" alt="Browsing for books. "></li>
+            <li><img src="img/sfdog.jpg" alt="Dogs in the park. "></li>
+            <li><img src="img/sfbike.jpg" alt="Biking in San Francisco. "></li>
+            <li><img src="img/sfcafe.jpg" alt="People in cafe. "></li>
+            <li><img src="img/sfmarket.jpg" alt="Farmer's market. "></li>
+            <li><img src="img/sfrocks.jpg" alt="Hot rock massage. "></li>
+          </ul>
+      </div>
+    </div>    
+```
+In order to convert the markup of the this unordered list to a block grid that contains three pieces of content placed across each row (medium size), add the following class to <ul>:
+
+
+```sh
+<ul class="medium-block-grid-3">
+```
+
 
