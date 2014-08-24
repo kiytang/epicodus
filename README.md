@@ -206,7 +206,8 @@ Outcome:
 ##Day 21
 
 ###Task:
-Applying offsets in the grid
+Applying offsets in the grid:
+Used to introduce more space between columns.
 
 Centering columns 
 Refers to the centering element to which the class is applied. It does not refer to text within the div. To center text you will need to add a custom style.
