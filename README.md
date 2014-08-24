@@ -208,7 +208,8 @@ Outcome:
 ###Task:
 Applying offsets in the grid
 
-Centering columns
+Centering columns 
+Refers to the centering element to which the class is applied. It does not refer to text within the div. To center text you will need to add a custom style.
 
 Nested grid systems
 
@@ -243,6 +244,8 @@ In this example I only accommodated for medium resolution, to cater for small re
 ```sh
 <ul class="medium-block-grid-3 small-block-grid-2">
 ```
+
+##Day 22
 
 
 
