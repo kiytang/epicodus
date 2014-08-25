@@ -247,6 +247,7 @@ In this example I only accommodated for medium resolution, to cater for small re
 ```
 
 ##Day 22
+a
 
 
 
