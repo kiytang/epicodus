@@ -257,5 +257,17 @@ In this example I only accommodated for medium resolution, to cater for small re
 ```
 ##Day 26
 
+###Task:
+Typography
 
+Quotes: the correct tag in Foundation for marking up quotes is the "blockquote".
+
+Citation: Foundationtag for citations is "cite"
+
+```sh
+<blockquote>"On my recent visit to Paris, I decided to stay in the Landon Hotel while visiting a friend.  The hotel was quite lovely and the location made it very easy to meet up with my friend.  Also, the room was spacious and the bed was unusually comfortable. I would definitely stay here again!" <cite> Amy Xhou, Los Angeles</cite></blockquote>
+```
+
+###Screenshot:
+![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot9.png)
 
