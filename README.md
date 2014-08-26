@@ -209,11 +209,21 @@ Outcome:
 Applying offsets in the grid:
 Used to introduce more space between columns.
 
+
+##Day 22
+
+###Task:
 Centering columns 
 Refers to the centering element to which the class is applied. It does not refer to text within the div. To center text you will need to add a custom style.
 
+##Day 24
+
+###Task:
 Nested grid systems
 
+##Day 25
+
+###Task:
 Block grids:    
 This places a series of items into rows and grids.
 The following sample below will result in a unordered list of bulleted images.
@@ -245,9 +255,7 @@ In this example I only accommodated for medium resolution, to cater for small re
 ```sh
 <ul class="medium-block-grid-3 small-block-grid-2">
 ```
-
-##Day 22
-a
+##Day 26
 
 
 
