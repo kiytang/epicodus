@@ -27,7 +27,7 @@ article {
 }
 
 article .right {
-	padding: 0 0 2em 1em;
+	padding: 0 0 2 em 1em;
 	font-size: 0.5em;
 }
 
@@ -35,3 +35,13 @@ article .left {
 	padding: 0 2em 1em 0;
 	font-size: 0.2em;
 }
+
+.top {
+	padding-top: 3em;
+}
+.top p {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+
