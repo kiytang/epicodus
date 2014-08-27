@@ -9,3 +9,11 @@
 .button:hover, .button:focus {
 	background-color: #462065;
 }
+
+header h2 {
+	font-family: Gorgia; serif;
+	font-style: italic;
+	font-weight: normal;
+	padding-top: .4em;
+	color: #5F2D8C;
+}
