@@ -44,4 +44,9 @@ article .left {
 	font-style: italic;
 }
 
+footer {
+	padding: 2em 0;
+	color: #999;
+	border-top: 10px solid #ccc;
+}
 
