@@ -22,6 +22,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Tangerine', sans-serif;
 }
 
-blockquote {
-	font-style: italics;
+article {
+	padding-bottom: 2em;
+}
+
+article .right {
+	padding: 0 0 2em 1em;
+	font-size: 0.5em;
+}
+
+article .left {
+	padding: 0 2em 1em 0;
+	font-size: 0.2em;
 }
