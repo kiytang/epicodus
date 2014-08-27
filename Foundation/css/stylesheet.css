@@ -1,1 +1,11 @@
 /*custom CSS styles*/
+
+.button {
+	background-color: #5F2D8C;
+	border-color: #462065;
+	color: white;
+}
+
+.button:hover, .button:focus {
+	background-color: #462065;
+}
