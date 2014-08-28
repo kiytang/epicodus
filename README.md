@@ -334,11 +334,23 @@ The size of the buttons can be selected by adding the following classes:
 - `.large`
 
 Panels:
-Used to highlight certain areas of the web page. To implement simply add the class `.panel` Note: I have added an additional utlility class of `.radius` to change give the corners a rounded appearence.
+Used to highlight certain areas of the web page. To apply, simply add the class `.panel` Note: In the example below, I have added a additional utlility class of `.radius` to give the panel corners a rounded appearence.
 
 ```sh
 <p class="panel radius">Ciao Mondo</p>
 ```
 
+Thumbnails:
 
+To covert the images below (the four images are located within a block grid) to thumbnails, include  the class `.th` to the `<a>` tag.
+As with previous examples, the added class of `.radius` is optional.
+
+```sh
+<ul class="small-block-grid-2 large-block-grid-4">
+        <li><a href="#" class="th radius"><img src="img/sfmarket.jpg" alt="Farmer's market. "></a></li>
+        <li><a href="#" class="th radius"><img src="img/sfrocks.jpg" alt="Hot rock massage. "></a></li>
+        <li><a href="#" class="th radius"><img src="img/sfbike.jpg" alt="Biking in San Francisco. "></a></li>
+        <li><a href="#" class="th radius"><img src="img/sfcafe.jpg" alt="Coffee at a cafe. "></a></li>
+      </ul>
+```
 
