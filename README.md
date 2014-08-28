@@ -308,6 +308,37 @@ In the example below, the text 'Ciao Mondo' will be centered for screen sizes me
   <p class="medium-text-center"><Ciao Mondo></p>
 ```
 
+- Adding both `size` and `only` will apply the text alignment just for that specific media query. Below the text 'Ciao Mondo' will align to the right only within the medium screen size dimensions.
+
+```sh
+  <p class="medium-only-text-right"><Ciao Mondo></p>
+```
+
+Button:
+To style a button in Foundation is relatively straightforward. In the example below I included a class of `.button` inside of the `<a>` tag in order to create a 'Read More' button. 
+
+```sh
+<p><a href="#" class="button round">Read More</a></p>
+```
+Foundation colours:
+By default Foundation has five colours:
+- Blue  
+- Gray    `.secondary`
+- Red     `.alert`
+- Green   `.success`
+- Orange  `.warning`
+
+The size of the buttons can be selected by adding the following classes:
+- `.tiny`
+- `.small`
+- `.large`
+
+Panels:
+Used to highlight certain areas of the web page. To implement simply add the class `.panel` Note: I have added an additional utlility class of `.radius` to change give the corners a rounded appearence.
+
+```sh
+<p class="panel radius">Ciao Mondo</p>
+```
 
 
 
