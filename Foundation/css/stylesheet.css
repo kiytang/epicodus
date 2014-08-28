@@ -5,7 +5,7 @@
 	border-color: #462065;
 	color: white;
 }
-
+/*sudo class hover*/
 .button:hover, .button:focus {
 	background-color: #462065;
 }
