@@ -213,7 +213,9 @@ Used to introduce more space between columns.
 ##Day 22
 
 ###Task:
-Centering columns 
+Centering columns
+
+## What I learnt: 
 Refers to the centering element to which the class is applied. It does not refer to text within the div. To center text you will need to add a custom style.
 
 ##Day 24
@@ -260,10 +262,11 @@ In this example I only accommodated for medium resolution, to cater for small re
 ###Task:
 Typography
 
-Quotes: the correct tag in Foundation for marking up quotes is the "blockquote".
+## What I learnt:
 
-Citation: Foundationtag for citations is "cite"
+A good pratice for marking up quotes and citations in Foundation is using both the "blockquote" and "cite" tag. 
 
+Example:
 ```sh
 <blockquote>"On my recent visit to Paris, I decided to stay in the Landon Hotel while visiting a friend.  The hotel was quite lovely and the location made it very easy to meet up with my friend.  Also, the room was spacious and the bed was unusually comfortable. I would definitely stay here again!" <cite> Amy Xhou, Los Angeles</cite></blockquote>
 ```
@@ -271,3 +274,20 @@ Citation: Foundationtag for citations is "cite"
 ###Screenshot:
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot9.png)
 
+Unordered list by default are marked with a bullet point format. To remove the bullet point, add a class of no-bullet to 'ul':
+
+Example:
+
+```sh
+<ul class="no-bullet">
+          <li>Bernal Hill Park</li>
+          <li>San Francisco Public Library</li>
+        </ul>
+```
+##Day 27
+
+###Task:
+- Text alignment options
+- styling buttons
+- Panels
+- Thumbnails
