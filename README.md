@@ -244,7 +244,7 @@ The following sample below will result in a unordered list of bulleted images.
       </div>
     </div>    
 ```
-In order to convert the markup of the unordered list to a block grid that contains three pieces of content placed across each row (medium size), add the following class to 'ul':
+In order to convert the markup of the unordered list to a block grid that contains three pieces of content placed across each row (medium size), add the following class to `<ul>`:
 
 
 ```sh
@@ -264,17 +264,17 @@ Typography
 
 ## What I learnt:
 
-A good pratice for marking up quotes and citations in Foundation is using both the "blockquote" and "cite" tag. 
+A good pratice for marking up quotes and citations in Foundation is using both the `<blockquote>` and `<cite>` tag. 
 
 Example:
 ```sh
-<blockquote>"On my recent visit to Paris, I decided to stay in the Landon Hotel while visiting a friend.  The hotel was quite lovely and the location made it very easy to meet up with my friend.  Also, the room was spacious and the bed was unusually comfortable. I would definitely stay here again!" <cite> Amy Xhou, Los Angeles</cite></blockquote>
+`<blockquote>`"On my recent visit to Paris, I decided to stay in the Landon Hotel while visiting a friend.  The hotel was quite lovely and the location made it very easy to meet up with my friend.  Also, the room was spacious and the bed was unusually comfortable. I would definitely stay here again!" <cite> Amy Xhou, Los Angeles</cite></blockquote>
 ```
 
 ###Screenshot:
 ![vacation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot9.png)
 
-Unordered list by default are marked with a bullet point format. To remove the bullet point, add a class of no-bullet to 'ul':
+Unordered list by default are marked with a bullet point format. To remove the bullet point, add a class of no-bullet to `<ul>`:
 
 Example:
 
@@ -291,3 +291,23 @@ Example:
 - styling buttons
 - Panels
 - Thumbnails
+
+## What I learnt:
+
+You can hide an element by adding the class `.hide`. Note that a hidden element does not equate to faster load times. The element still remains and runs each time your site is loaded-the only difference is that it does not get displayed on screen.
+
+
+Text-alignment: 
+- Adding a class of `.text_center` will align the element to the center, irrespective of the screen size.
+
+- Adding a `size` to the front of the text align class will cause it to be applied on that screen size or larger.
+
+In the example below, the text 'Ciao Mondo' will be centered for screen sizes medium and above:
+
+```sh 
+  <p class="medium-text-center"><Ciao Mondo></p>
+```
+
+
+
+
