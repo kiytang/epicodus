@@ -347,10 +347,38 @@ As with previous examples, the added class of `.radius` is optional.
 
 ```sh
 <ul class="small-block-grid-2 large-block-grid-4">
-        <li><a href="#" class="th radius"><img src="img/sfmarket.jpg" alt="Farmer's market. "></a></li>
-        <li><a href="#" class="th radius"><img src="img/sfrocks.jpg" alt="Hot rock massage. "></a></li>
-        <li><a href="#" class="th radius"><img src="img/sfbike.jpg" alt="Biking in San Francisco. "></a></li>
-        <li><a href="#" class="th radius"><img src="img/sfcafe.jpg" alt="Coffee at a cafe. "></a></li>
-      </ul>
+  <li><a href="#" class="th radius"><img src="img/sfmarket.jpg" alt="Farmer's market. "></a></li>
+  <li><a href="#" class="th radius"><img src="img/sfrocks.jpg" alt="Hot rock massage. "></a></li>
+  <li><a href="#" class="th radius"><img src="img/sfbike.jpg" alt="Biking in San Francisco. "></a></li>
+  <li><a href="#" class="th radius"><img src="img/sfcafe.jpg" alt="Coffee at a cafe. "></a></li>
+</ul>
 ```
+##Day 28
+
+Task###
+
+- Overiding Foundation's core CSS
+
+## What I learnt:
+We need to add a custom stylesheet within the HTML document in order to allow the customization to take place.
+
+Note: Although you can use add customtomization to the existing Foundation stylesheet, it is generally noted as bad practice as any future version upgrades will result in styles being lost.
+
+How to add cutomisation:
+
+- 1/ Add a additional link tag within the HTML document. In my example, I have named my stylesheet `stylesheet.css` and the resulting link tag is as follows:
+
+```sh
+<link rel="stylesheet" href="css/foundation.css" />
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css" media="all"/>
+```
+
+- 2/ Locate the CSS folder inside of Foundation and create a file named `stylesheet.css`
+
+Within this newly created file `stylesheet.css`, you are able to customize all elements within the HTML document. 
+
+
+
+
+
 
