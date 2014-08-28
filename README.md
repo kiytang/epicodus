@@ -288,7 +288,7 @@ Example:
 
 ###Task:
 - Text alignment options
-- styling buttons
+- Styling buttons
 - Panels
 - Thumbnails
 
@@ -355,9 +355,9 @@ As with previous examples, the added class of `.radius` is optional.
 ```
 ##Day 28
 
-Task###
+###Task
 
-- Overiding Foundation's core CSS
+- Overriding Foundation's core CSS
 
 ## What I learnt:
 We need to add a custom stylesheet within the HTML document in order to allow the customization to take place.
@@ -377,6 +377,13 @@ How to add cutomisation:
 
 Within this newly created file `stylesheet.css`, you are able to customize all elements within the HTML document. 
 
+Below, I have created a custom style whereby all my title headings are coloured purple  
+
+```sh
+h1, h2, h3, h4, h5, h6 {
+  color: #5F2D8C;
+}
+```
 
 
 
