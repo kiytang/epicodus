@@ -426,7 +426,53 @@ h1, h2, h3, h4, h5, h6 {
 }
 ```
 
-Navigation
+Navigation:
+
+The HTML required to create a top bar in Foundation is as shown below. 
+
+```sh
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">My Site</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+  <section class="top-bar-section">
+    <ul class="right">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Accommodations</a></li>
+      <li><a href="#">Reservations</a></li>
+      <li><a href="#">Meetings &amp; Events</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Ciao Mondo</a></li>
+    </ul>
+  </section> 
+</nav> 
+```
+
+Notes:
+- To create a top-bar, add the class `.top-bar` to the `nav` class:     
+`<nav class="top-bar" data-topbar role="navigation">`  
+Notice a `data-topbar` is also added. Anytime we see `data-`, it indicates that we are working with JavaScript.
+
+- `<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>` will trigger the menu botton (often referred to as the Hamburger button) to appear at small  screen.
+
+- `<section class="top-bar-section">` contains the main navigation for our webpage. I have added a class of `.right` to position my navigation on the right side of the screen.
+
+- `<li class="active"><a href="#">Home</a></li>`  
+A class of `.active` inside a `<li>` indicates the page you are currently on.  
+
+###Screenshot:
+Non small Screen:   
+![vacation](https://https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot10.png)
+
+Small Screen    
+![vacation](https://https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot11.png)
 
 
 
