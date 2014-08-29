@@ -468,13 +468,10 @@ Notice a `data-topbar` is also added. Anytime we see `data-`, it indicates that 
 A class of `.active` inside a `<li>` indicates the page you are currently on.  
 
 ###Screenshot:
-Non small Screen:   
-![vacation](https://https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot10.png)
+####Non collapsed Screen:   
+![navigation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot10.png)
 
-Small Screen    
-![vacation](https://https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot11.png)
-
-
-
+####Small Screen:
+![navigation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot11.png)
 
 
