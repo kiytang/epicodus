@@ -294,7 +294,7 @@ Example:
 
 ## What I learnt:
 
-You can hide an element by adding the class `.hide`. Note that a hidden element does not equate to faster load times. The element still remains and runs each time your site is loaded-the only difference is that it does not get displayed on screen.
+You can hide an element by adding the class `.hide`. Note that a hidden element does not equate to faster load times. The element still runs behind the scenes each time your site is loaded; the only difference is that it does not get displayed on screen.
 
 
 Text-alignment: 
@@ -383,6 +383,25 @@ Below, I have created a custom style whereby all my title headings are coloured 
 h1, h2, h3, h4, h5, h6 {
   color: #5F2D8C;
 }
+```
+
+##Day 29
+
+###Task
+
+- Visibility classes
+- Adding Google Fonts
+
+Earlier (Day 27) I mentioned how we could use `.hide`. For added hide/show customization, Foundation offers a visibility classes.
+
+A example I use below is how one could tailor a website so that:
+- When viewed using a mobile device, the contact information will link directly create a call using the device's call application. 
+
+- When viewed using a medium screened and above devices, the contact information links to the contact site address.
+
+```sh
+<p class="hide-for-medium-up"><a href="tel:+000123123">Call</a>today for reservations!</p>
+<p class="show-for-medium-up"><a href="#">Make your reservation today!</a></p>
 ```
 
 
