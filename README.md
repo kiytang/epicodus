@@ -410,18 +410,18 @@ There are steps required in order to use the Google Fonts API to add fonts to yo
 - 1/ Add a stylesheet link in the HTML document you wish to add the font. Note: In my example I have chosen to use the font style named `Tangerine`
 
 ```sh
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff">
 <link rel="stylesheet" href="css/foundation.css" />
 <link rel="stylesheet" href="css/stylesheet.css" />
 ```
 
 - 2/ Refer to the font in your CSS style sheet:
-Below I have made use of the Google Font `Tangerine`for all my heading tags. 
+Below I have made use of the Google Font `Herr+Von+Muellerhoff`for all my heading tags. 
 
 ```sh
 h1, h2, h3, h4, h5, h6 {
   color: #5F2D8C;
-  font-family: 'Tangerine', sans-serif;
+  font-family: 'Herr Von Muellerhoff', cursive;
 }
 ```
 
