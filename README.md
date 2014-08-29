@@ -391,6 +391,7 @@ h1, h2, h3, h4, h5, h6 {
 
 - Visibility classes
 - Adding Google Fonts
+- Adding Navigation
 
 Earlier (Day 27) I mentioned how we could use `.hide`. For added hide/show customization, Foundation offers a visibility classes.
 
@@ -425,6 +426,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 ```
 
+Navigation
 
 
 
