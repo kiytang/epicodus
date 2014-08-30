@@ -474,4 +474,4 @@ A class of `.active` inside a `<li>` indicates the page you are currently on.
 ####Small Screen:
 ![navigation](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot11.png)
 
-
+##Day 30
