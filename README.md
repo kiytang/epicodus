@@ -476,4 +476,69 @@ A class of `.active` inside a `<li>` indicates the page you are currently on.
 
 ##Day 30
 
-##Day 31
+###Task:
+
+Adding a Dropdown menu
+
+Below is a example of how to add a dropdown menu:
+
+- 1/ Add a class of `.has-dropdown` to `<li>` you wish to have a dropdown menu.
+
+- 2/ Add a class of `.dropdown` to the `<ul>` nested within the `<li>` of (1) 
+
+```sh
+<li class="has-dropdown"><a href="#">Sports</a>
+  <ul class="dropdown">
+    <li><a href="#">Barefoot Running</a></li>
+    <li><a href="#">Crazy Golf</a></li>
+    <li><a href="#">Beach Volleyball</a></li>
+  </ul>
+</li>
+```
+
+##Day 31        
+
+###Task:
+
+Off-Canvas Menu:
+"off-canvas menus are positioned outside of the viewport and slide in when activated." source Foundation-Zurb documentation.
+
+Below is  a guide on how to implement off-canvas :
+- 1/ `.off-canvas-wrap` Placed after the `<body>` tag, this `<div>` class forms the outer-most element. It contains the entire off-canvas layout and hides overflows.
+
+- 2/ `.inner-wrap`  
+    This is the element that is amimated.
+
+- 3/ In the `<nav>` create a class of `.tab-bar` Inside of this tag create a `<section>` with class of either `right` or `left` depending on where you want the positioning. Inside `<section>` we have:     
+`<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>`
+
+    Note:
+    `menu-icon` will display the menu icon and `left-off-canvas-toggle` will style the canvas to appear of the left of page. 
+
+- 4/ At this point end of both `<nav>` and `<section>` tags.
+
+- 5/ The `<ul>` is incorporated in a <aside> tag with class `.left-off-canvas-menu`. The `<ul>` tag itself will have a class `.off-canvas-list`  This is the panel that slided in and out when activated. You can place it on either the left or right side.
+
+
+- 6/ After the closing of `</aside>` tag add:  
+`<a class="exit-off-canvas"></a>` to close off the canvas
+
+
+##Day 32
+###Task:
+Combining top-bar with off-canvas
+
+The aim of this task is to create a responsive page where at large resolutions the navigation menu is configured by top-bar and the resolution size is reduced, a menu buton will appear linking to the off-canvas style navigation.
+
+- Start with the off-canvas navigation HTML.
+
+- Add after the off-canvas code, the code for the top-bar.
+
+-    Visibility Class:
+    
+    For the `<nav>` tag located within the code for off-canvas, add the visibility class:  
+`.hide-for-medium-up`
+
+    For the `<nav>`tag located within the code for the top-bar, add the class: 
+    
+    `.show-for-medium-up` 
