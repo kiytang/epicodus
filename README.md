@@ -542,3 +542,63 @@ The aim of this task is to create a responsive page where at large resolutions t
     For the `<nav>`tag located within the code for the top-bar, add the class: 
     
     `.show-for-medium-up` 
+
+##Day 33
+###Task:
+
+##Day 34:
+JavaScript primitives, methods and functions
+
+###Task:
+-   Set a variable called favoriteNumber equal to your favorite number.
+        var favoriteNumber = 9;
+-   Calculate what your favorite number divided by 2 is.
+        favoriteNumber / 2
+        4.5
+-   Set another variable called michaelsFavorite equal to 13.
+        var michaelsFavorite = 13;
+        
+-   Change the value of michaelsFavorite to 7.
+        var michaelsFavorite = 7;
+
+-   Subtract your favorite number from mine.
+        var total = michaelsFavorite - favoriteNumber;
+        total
+        -2
+
+-   Change the value of my favorite number to be 26 times its current value
+        michaelsFavorite *= 26;
+        182
+
+###What I learnt:
+
+Web Browsers can do three things:
+
+- Display content with HTML
+- Style HTML content with CSS
+- Change what is displayed with JS
+
+
+To access JS console in Chrome:
+ `cmd + alt + j`
+
+To clear the JS console in Chrome:
+`cmd` + `k`
+
+Dividing a number by zero returns `Infinity`
+Dividing zero by zero returns `NaN` (Not-a-Number)
+
+Both `Infinity` and `NaN` are considered a type of number in JS
+
+Variables:
+To create a new variable in JS, use the following best practices:
+
+- Begin with `var`
+- Name the variable name in lower cammalcase style
+- End your JS statments with `;`
+
+Example:
+
+`var myNumber = 10;`
+
+
