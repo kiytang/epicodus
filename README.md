@@ -551,24 +551,16 @@ JavaScript primitives, methods and functions
 
 ###Task:
 -   Set a variable called favoriteNumber equal to your favorite number.
-        var favoriteNumber = 9;
 -   Calculate what your favorite number divided by 2 is.
-        favoriteNumber / 2
-        4.5
 -   Set another variable called michaelsFavorite equal to 13.
-        var michaelsFavorite = 13;
-        
 -   Change the value of michaelsFavorite to 7.
-        var michaelsFavorite = 7;
-
 -   Subtract your favorite number from mine.
-        var total = michaelsFavorite - favoriteNumber;
-        total
-        -2
-
 -   Change the value of my favorite number to be 26 times its current value
-        michaelsFavorite *= 26;
-        182
+
+
+####Screenshot:
+
+![Variables](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot12.png)
 
 ###What I learnt:
 
