@@ -597,10 +597,10 @@ Example:
 
 ###Task:
 
-Convert a number to exponential notation.
-Convert it back.
-Specify the number of decimals it should have.
-Repeat all of these using a variable set equal to a number.
+- Convert a number to exponential notation.
+- Convert it back.
+- Specify the number of decimals it should have.
+- Repeat all of these using a variable set equal to a number.
 
 ###Screenshot:
    
