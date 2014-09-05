@@ -606,3 +606,13 @@ Example:
    
 
 ![Exponential](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot13.png)
+
+###Day 35
+
+###Task:
+Practice using strings:
+
+- Set a variable equal to a string.
+- Call a method on that variable.
+- Make sure you're clear on the difference between "9" with quotes and 9 without.
+- Check out the MDN's documentation of string methods and try out at least five yourself. If some of them don't make sense, don't worry about it - just try the ones that do. (Stick to the section labelled Methods unrelated to HTML.)
