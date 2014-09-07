@@ -607,7 +607,7 @@ Example:
 
 ![Exponential](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot13.png)
 
-###Day 35
+###Day 36
 
 ###Task:
 Practice using strings:
@@ -617,6 +617,26 @@ Practice using strings:
 - Make sure you're clear on the difference between "9" with quotes and 9 without.
 - Check out the MDN's documentation of string methods and try out at least five yourself. If some of them don't make sense, don't worry about it - just try the ones that do. (Stick to the section labelled Methods unrelated to HTML.)
 
-###Day 36
+###Day 37
 
 ###Task:
+
+###String-Methods:
+
+- concat(): used to join two or more strings
+
+- charAt(): returns the character at the specific index in a string. 
+    
+    Note: The index of the last character in a string is:   
+    `string.lenght -1`
+
+- indexOf(): returns the position of the first occurrence of a specified value in a string. Returns `-1` if the value to search never occurs.
+
+- lastIndexOf(): returns position if the last occurrence of a specified value in a string.
+
+    Example:    
+    Below we search the string `"canal"` for the last occurrence of the value `"a"`, starting the search at position `2` 
+    
+    ```sh
+    "canal".lastIndexOf("a",2)
+    ```
