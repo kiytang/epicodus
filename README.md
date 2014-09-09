@@ -640,3 +640,7 @@ Practice using strings:
     ```sh
     "canal".lastIndexOf("a",2)
     ```
+###Day 38
+
+###Task:
+
