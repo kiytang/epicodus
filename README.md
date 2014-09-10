@@ -648,7 +648,35 @@ Practice using strings:
     "canalla".lastIndexOf("a",2)
     ```
     ** The parameter `2` in this instance represents how many character indexes to count. For the letter `l` at index `5`, the menthod `.lastOfIndex` will seach the string up to the value os `5` and then track the last occurrence of the `search-value` which in this instance is `a` to return a value of `3`
+
 ###Day 38
 
 ###Task:
+Continuing with JS string methods:
 
+- search()
+
+- slice()
+
+###Day 39
+
+###Task:
+Continuing with JS string methods:
+
+- split()
+
+- substr()
+
+###Day 40
+
+###Task:
+Continuing with JS string methods:
+
+- substring()
+
+- trim()
+
+###Day 41
+
+###Task:
+JS Functions
