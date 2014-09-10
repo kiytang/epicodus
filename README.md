@@ -635,11 +635,19 @@ Practice using strings:
 - lastIndexOf(): returns position if the last occurrence of a specified value in a string.
 
     Example:    
-    Below we search the string `"canal"` for the last occurrence of the value `"a"`, starting the search at position `2` 
+    Below we search the string `"canalla"` for the last occurrence of the value `"a"`, starting the search at position `2` 
+    
+    Syntax:
     
     ```sh
-    "canal".lastIndexOf("a",2)
+    string.lastOfIndex(search-value,start)
     ```
+    
+    Example:
+    ```sh
+    "canalla".lastIndexOf("a",2)
+    ```
+    ** The parameter `2` in this instance represents how many character indexes to count. For the letter `l` at index `5`, the menthod `.lastOfIndex` will seach the string up to the value os `5` and then track the last occurrence of the `search-value` which in this instance is `a` to return a value of `3`
 ###Day 38
 
 ###Task:
