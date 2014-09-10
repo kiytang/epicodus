@@ -680,3 +680,11 @@ Continuing with JS string methods:
 
 ###Task:
 JS Functions
+
+- Use alert() to pop up a dialog box.
+- Use confirm() to ask a yes or no question.
+- Use prompt() to ask a question.
+- Save the response to the prompt() as a variable, and then run a string method of your choice on it.
+
+###ScreenShot
+![Function](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot15.png)
