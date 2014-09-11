@@ -688,3 +688,23 @@ JS Functions
 
 ###ScreenShot
 ![Function](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot15.png)
+
+
+###Day42
+
+###Task
+Write functions of your own to:
+
+- take somebody's name and say a greeting to them;
+- subtract two numbers;
+- multiply two numbers;
+- divide two numbers.
+
+####What I learnt:
+There are 5 basic JS datatypes/primatives:
+
+- Numbers
+- Strings
+- Booleans
+- Undefined
+- Null
