@@ -708,3 +708,7 @@ There are 5 basic JS datatypes/primatives:
 - Booleans
 - Undefined
 - Null
+
+###Day43
+
+###Task
