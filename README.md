@@ -716,3 +716,7 @@ There are 5 basic JS datatypes/primatives:
 ###Day44
 
 ###Task
+
+###Day45
+
+###Task
