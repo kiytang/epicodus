@@ -715,9 +715,9 @@ There are 5 basic JS datatypes/primatives:
 jQuery practice
 
 - Create a HTML page.
-- Add an <h2> and bind an event handler to it with .click(). Pass in a callback that contains an alert().
-- Do the same for a <ul>.
-- Swap out the .click() method for .dblclick() and .hover() in a couple places.
+- Add an `<h2>` and bind an event handler to it with `.click()`. Pass in a callback that contains an `alert()`.
+- Do the same for a `<ul>`.
+- Swap out the `.click()` method for `.dblclick()` and `.hover()` in a couple places.
 
 ###Screenshot
 ![jQuery](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot16.png)
