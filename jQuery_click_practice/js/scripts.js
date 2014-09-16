@@ -11,4 +11,9 @@ $(document).ready(function() {
 	$("img").click(function() {
 		alert("This is an image");
 	});
+
+	jQuery("h2").click(function() {
+		alert("This is a h2 header.");
+		alert("h2 headers have a smaller size font than h1")
+	});
 });
