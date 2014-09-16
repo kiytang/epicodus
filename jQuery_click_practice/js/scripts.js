@@ -16,4 +16,8 @@ $(document).ready(function() {
 		alert("This is a h2 header.");
 		alert("h2 headers have a smaller size font than h1")
 	});
+
+	jQuery("ul").dblclick(function() {
+		alert("This is a ul tag.");
+	})
 });
