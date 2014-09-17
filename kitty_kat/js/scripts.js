@@ -1,5 +1,5 @@
 jQuery(function() {
-	jQuery("p").click(function() {
+	jQuery(".clickable").click(function() {
 		jQuery(".kat-show").toggle();
 		jQuery(".kat-hide").toggle();
 	});
