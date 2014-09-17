@@ -729,9 +729,65 @@ jQuery effects practice
 
 - On your cat's homepage, add some text that alternates between saying "Hide/show images", and toggles the images appropriately.
 
-- On your vacation page, make a few of the sections hidden by default, with a bit of teaser text that expands when you click on it (e.g., "Click to learn about the giant sandcastles of this fabulous country!").
+###What I learnt:
+To add jQuery to my kats webpage:
+- first download a copy of jQuery and place it in the same directory as the HTML file
+- then reference it with the HTML `<script>` tag. 
+- Create a file called `scripts.js` to store our own JavaScript code and reference it by also making making use of the `<script>` tag.  
 
-- On any pages of your choosing, try fading and sliding elements with `.fadeIn()`, `.fadeOut()`, `.fadeToggle()`, `.slideDown()`, `.slideUp()`, and .`slideToggle()`.
+Note: The scripts.js file must come after jQuery library, since the scripts.js file relies on the functionality that jQuery provides.
+
+```sh
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="css/styles_cat.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <script src="js/jquery-1.11.1 (1).js"></script>
+  <script src="js/scripts.js"></script>
+  <title>kitty-kat adventures</title>
+  </head>
+```
+
+###jQuery Syntax:
+
+```sh
+jQuery(selector).action()
+
+```
+- `jQuery` to define.access jQuery (note a `$` sign can be used instead of `jQuery`
+- `(selector)` to find the `HTML` elements
+- `.action` is a jQuery action to be performed on the element(s) 
+
+Example:
+
+To assign a `click` event to all `<h1>`'s on a page: 
+
+#####Note:
+- All the different visitor's actions that a web page can respond to are called events.(obtained from w3schools)
+
+- When you pass in a function as an argument to another function, the function being passed in is called a callback.
+```sh
+jQuery("h1").click();
+```
+
+The next step is to define what should happen when the event fires. In order to complete this, you must pass a function to the event:
+
+
+```sh
+jQuery("h1").click(function () {
+  alert("This is a h1 tag");
+});
+```
+ 
+- Document Ready Event:
+It is good practice to allow the document to be fully loaded before working on it. To allow for this we place all our jQuery method inside a document ready event:
+
+```sh
+jQuery(document).ready(function() {
+//jQuery methods go here...
+}):
+```
 
 ###Day 45
 
