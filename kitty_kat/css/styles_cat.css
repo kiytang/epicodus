@@ -29,6 +29,7 @@ p.honest {
 }
 
 img {
+	display: none;
 	float: left;
 	padding: 20px;
 	border: 8px solid black;
