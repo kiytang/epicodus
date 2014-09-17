@@ -1,5 +1,6 @@
 jQuery(function() {
 	jQuery("p").click(function() {
-		jQuery("img").show();
+		jQuery(".kat-show").show();
+		jQuery(".kat-hide").hide();
 	});
 });
