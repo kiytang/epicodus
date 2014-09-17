@@ -793,3 +793,33 @@ jQuery(document).ready(function() {
 
 ###Task
 
+####What I learnt:
+
+For a better user experience it is common for elements that are clickable to:
+- change a different colour 
+- when a user hovers their mose over it, the cusor should change to a hand and the text will be underlined.
+
+The above can be implemented with CSS
+
+```sh
+p {
+  cursor: pointer;
+  color: res;
+}
+
+p:hover {
+  text-decoration:underline;
+}
+```
+
+The `<span>` tag is used to group inline-elements in a document. In my example
+I  used the `<span>` tag to specifically only target the "Click here" Without the `<span>`, the CSS properties would have been applied to all `<p>` tags.
+
+```sh
+<div id="initial-show">
+ <p><span class="clickable">Click here</span> to see the surprise!</p>
+</div>
+
+<div id="initial-hide">
+ <p>What a smart kitty-kat! <span class="clickable">Click here</span> to hide me!</p>
+```
