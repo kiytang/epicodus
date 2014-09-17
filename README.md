@@ -823,3 +823,37 @@ I  used the `<span>` tag to specifically only target the "Click here" Without th
 <div id="initial-hide">
  <p>What a smart kitty-kat! <span class="clickable">Click here</span> to hide me!</p>
 ```
+
+###Day 46
+
+###Task
+
+####What I learnt:
+Document Object Model (DOM)
+The DOM is your browser's interpretation of the HTML it reads. If you inspect an element of the page, you're actually seeing the DOM, not the HTML
+
+Difference between a class selector and an id selector
+id's are unique
+
+- Each element can have only one ID
+- Each page can have only one element with that ID Using an id, you can be clear that you're referring to one particular thing, rather than potentially referring to several.
+
+Classes are not unique
+
+- Can use the same class on multiple elements.
+- Can use multiple classes on the same element.
+
+Any styling information that needs to be applied to multiple objects on a page should be done with a class. Take for example a page with multiple "HongKong":
+
+```sh
+<div class="HongKong"></div>
+<div class="HongKong"></div>
+<div class="HongKong"></div>
+```
+You can now use the class name "HongKong" as your hook to apply the same set of styling to each one of these. But what if you need one of them to be bigger than the other, but still share all the other attributes? Classes has you covered there, as you can apply more than one class:
+
+```sh
+<div class="HongKong"></div>
+<div class="HongKong China"></div>
+<div class="HongKong"></div>
+```
