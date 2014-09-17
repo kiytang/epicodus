@@ -690,7 +690,7 @@ JS Functions
 ![Function](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot15.png)
 
 
-###Day42
+###Day 42
 
 ###Task
 Write functions of your own to:
@@ -709,7 +709,7 @@ There are 5 basic JS datatypes/primatives:
 - Undefined
 - Null
 
-###Day43
+###Day 43
 
 ###Task
 jQuery practice
@@ -722,10 +722,17 @@ jQuery practice
 ###Screenshot
 ![jQuery](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot16.png)
 
-###Day44
+###Day 44
 
 ###Task
+jQuery effects practice
 
-###Day45
+- On your cat's homepage, add some text that alternates between saying "Hide/show images", and toggles the images appropriately.
+
+- On your vacation page, make a few of the sections hidden by default, with a bit of teaser text that expands when you click on it (e.g., "Click to learn about the giant sandcastles of this fabulous country!").
+
+- On any pages of your choosing, try fading and sliding elements with `.fadeIn()`, `.fadeOut()`, `.fadeToggle()`, `.slideDown()`, `.slideUp()`, and .`slideToggle()`.
+
+###Day 45
 
 ###Task
