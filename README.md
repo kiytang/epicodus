@@ -857,3 +857,6 @@ You can now use the class name "HongKong" as your hook to apply the same set of 
 <div class="HongKong China"></div>
 <div class="HongKong"></div>
 ```
+###Day 47
+
+###Task
