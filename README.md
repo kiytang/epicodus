@@ -860,7 +860,34 @@ You can now use the class name "HongKong" as your hook to apply the same set of 
 ###Day 47
 
 ###Task
+Manipulation and traversal
+
+- Inserting content to the DOM
+
+What I learnt:
+
+Today when faced with the following code below today, I had to refresh my Bootstrap knowledge on buttons:
+
+```sh
+<button class="btn btn-primary" id="hello">Say "hello"</button>
+<button class="btn btn-inverse" id="goodbye">Say "goodbye"</button>
+<button class="btn btn-danger" id="stop>Say">Say "stop copying me!"</button>
+```
+
+Bootstrap includes a variety of button colours that can be applied as well, using additional classnames. The available color classes are:
+- btn-primary, 
+- btn-info, 
+- btn-success, 
+- btn-warning, 
+- btn-danger, 
+- btn-inverse, and 
+- btn-link. 
+
+Note:
+In order to apply a color to a button, the regular `<btn>` class must also be present. 
+
 
 ###Day 48
+
 
 ###Task
