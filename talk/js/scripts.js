@@ -13,8 +13,8 @@ $(document).ready(function() {
 	});
 
 	$("button#goodbye").click(function() {
-		$("ul#user").prepend("<li>Goodbye!</li>");
-		$("ul#webpage").prepend("<li>Goodbye dear user!</li>");
+		$("ul#user").prepend("<li>Goodbye! <span class='clickable'>[ x ]</span></li>");
+		$("ul#webpage").prepend("<li>Goodbye dear user! <span class='clickable'>[ x ]</span></li>");
 
 		$("ul#user").children("li").first().click(function() {
 			$(this).remove();
@@ -26,8 +26,8 @@ $(document).ready(function() {
 	});
 
 	$("button#stop").click(function() {
-		$("ul#user").prepend("<li>Stop copying me!</li>");
-		$("ul#webpage").prepend("<li>Stop, Stop Stop!!!</li>");
+		$("ul#user").prepend("<li>Stop copying me! <span class='clickable'>[ x ]</span></li>");
+		$("ul#webpage").prepend("<li>Stop, Stop Stop!!! <span class='clickable'>[ x ]</span></li>");
 
 		$("ul#user").children("li").first().click(function() {
 			$(this).remove();
