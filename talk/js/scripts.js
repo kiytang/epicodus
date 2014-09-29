@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$("button#hello").click(function() {
-		$("ul#user").prepend("<li>Hello!</li>");
-		$("ul#webpage").prepend("<li>Why hello there!</li>");
+		$("ul#user").prepend("<li>Ciao, come stai! <span class='clickable delete'>[ x ]</span></li>");
+		$("ul#webpage").prepend("<li>tutto bene grazie!<span class='clickable delete'>[ x ]</span></li>");
 
 		$("ul#user").children("li").first().click(function() {
 			$(this).remove();
