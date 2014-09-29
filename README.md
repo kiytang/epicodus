@@ -884,10 +884,111 @@ Bootstrap includes a variety of button colours that can be applied as well, usin
 - btn-link. 
 
 Note:
-In order to apply a color to a button, the regular `<btn>` class must also be present. 
+In order to apply a colour to a button, the regular `<btn>` class must also be present. 
 
 
 ###Day 48
 
 
 ###Task
+Inserting elements to the Dom
+
+- Writing JS to make buttons repsond
+
+First we locatethe button with ID#hello, attach a click listener to it. When clicked, the `<ul>` is selected and preprends (put inside at the beginning) the `<li>` tag `"Hello!"`
+
+Do the same for `goodbye`, ie: grab button with id#goodbye, attach a click listener and prepend with the `<li>` tag `"Goodbye!"` 
+
+```sh
+$(document).ready(function() {
+  $("button#hello").click(function() {
+    $("ul").prepend("<li>Hello!</li>");
+  });
+
+  $("button#goodbye").click(function() {
+    $("ul").prepend("<li>Goodbye!</li>");
+  });
+});
+```
+
+At present we have both the user and the webpage saying the same thing. To differentite between the two we:
+
+- 1/ Change the `<ul>` tags to have IDs for `user` and `webpage` on the HTML
+
+```sh
+<div class="col-md-6">
+  <h2>You said:</h2>
+  <ul class="unstyled" id="user">
+  </ul>
+</div>
+
+<div class="col-md-6">
+  <h2>The web page said back:</h2>
+  <ul class="unstyled" id="webpage">
+  </ul>
+</div>
+```        
+- 2/ Inside the scripts.js file we can now apply the individual prepends to the user and webpage.
+
+```sh
+$(document).ready(function() {
+  $("button#hello").click(function() {
+    $("ul#user").prepend("<li>Hello!</li>");
+    $("ul#webpage").prepend("<li>Why hello there!</li>");
+  });
+
+  $("button#goodbye").click(function() {
+    $("ul#user").prepend("<li>Goodbye!</li>");
+    $("ul#webpage").prepend("<li>Goodbye, dear user!</li>");
+  });
+
+  $("button#stop").click(function() {
+    $("ul#user").prepend("<li>Stop copying me!</li>");
+    $("ul#webpage").prepend("<li>Pardon me. I meant no offense.</li>");
+  });
+});
+```
+Removing elements from the DOM:
+
+A basic test to make sure that we are selecting the right element is to change the background colour:
+
+```sh
+$("button#hello").click(function() {
+  $("ul#user").prepend("<li>Hello! <span class='clickable delete'>x</span></li>");
+  $("ul#webpage").prepend("<li>Why hello there! <span class='clickable delete'>x</span></li>");
+  $('li').css('background-color', 'green');
+});
+```
+Once we have made sure we are selecting the correct element, we can attach a click handler in place of changing the background.
+In the example below I have replaced the background color change into opening a dialogue box:
+
+```sh
+$("button#hello").click(function() {
+  $("ul#user").prepend("<li>Hello! <span class='clickable delete'>x</span></li>");
+  $("ul#webpage").prepend("<li>Why hello there! <span class='clickable delete'>x</span></li>");
+  $('li').click(function() {
+    alert('Ciao');
+  });
+});
+```
+
+To modify the code so that attach handlers are only attached to the most recently added message, we can select the `<ul>`, look through its child elements (the `<li>`s) and select the first one of them.
+
+```sh
+$("ul#user").children("li").first().click(function() {
+  alert('hi');
+});
+$("ul#webpage").children("li").first().click(function() {
+  alert('hi');
+});
+``` 
+Finally, in order to allow for content to be deleted, replace `$aler('hi');` with `$(this).remove();` (`this` refers to whatever is being clicked at the time)
+
+```sh
+$("ul#user").children("li").first().click(function() {
+  $(this).remove();
+});
+$("ul#webpage").children("li").first().click(function() {
+  $(this).remove();
+});
+```
