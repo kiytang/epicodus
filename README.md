@@ -973,6 +973,13 @@ $("button#hello").click(function() {
 ```
 
 To modify the code so that attach handlers are only attached to the most recently added message, we can select the `<ul>`, look through its child elements (the `<li>`s) and select the first one of them.
+Instead of tracking all the `<ul>`s we 
+- track only the ul#user, 
+- then grab the children of that ul
+- just grab the lis
+- grab the 1st of those children
+This is the element we add the click handler to. 
+
 
 ```sh
 $("ul#user").children("li").first().click(function() {
@@ -992,3 +999,42 @@ $("ul#webpage").children("li").first().click(function() {
   $(this).remove();
 });
 ```
+
+###Day 49
+
+###Task
+- Add a feature so that each message has an "x" next to it. When you click the "x", it should delete the line.
+
+In order to complete this task, I:
+- 1/ Added a `<span>` tag with `class=clickable` 
+```sh
+$(document).ready(function() {
+  $("button#hello").click(function() {
+    $("ul#user").prepend("<li>Ciao, come stai! <span class='clickable'>[ x ]</span></li>");
+    $("ul#webpage").prepend("<li>tutto bene grazie!<span class='clickable'>[ x ]</span></li>");
+
+    $("ul#user").children("li").first().click(function() {
+      $(this).remove();
+    });
+
+    $("ul#webpage").children("li").first().click(function() {
+      $(this).remove();
+    })
+  });
+```
+
+- 2/ Updated the CSS as below
+
+```sh
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+```
+###Screeshot
+![class clickable](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot17.png)
+
