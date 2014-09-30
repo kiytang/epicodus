@@ -1,3 +1,6 @@
+<!-- 
+Task:
+Make a "cat vs dog" page - if you click a button for the cat to meow, the dog should bark back, and vis versa. Include the same deleting functionality as in talk.html (but re-write the code yourself!). -->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -7,4 +10,27 @@
 		<script src="js/scripts.js"></script>
 		<title>Cat vs Dog</title>
 	</head>
+
+	<body>
+		<div class="container">
+			<h1>A afternoon tea discussion between Mufasa and Droopy</h1>
+			<p>Click a button to engage a conversation</p>
+
+			<button class="btn btn-primary" id="meow">"Mufasa"</button>
+			<button class="btn btn-inverse" id="bark">"Droopy"</button>
+
+			<div class="row">
+				<div class="col-md-6">
+					<h2>You said:</h2>
+					<ul class="unstyled" id="starter"></ul>
+				</div>
+
+				<div class="col-md-6">
+					<h2>Response:</h2>
+					<ul class="unstyled" id="response"></ul>
+				</div>	
+			</div>
+		</div>
+	</body>
 </html>
+
