@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$("button#cat").click(function() {
+		alert("You Have chosen Mufasa to voice first.");
 		$("ul#starter").prepend("<li>meow <span class='clickable'>[x]</span></li>");
 		$("ul#response").prepend("<li>bark bark <span class='clickable'>[x]</span></li>");
 
