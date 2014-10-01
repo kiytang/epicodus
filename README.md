@@ -1038,3 +1038,10 @@ $(document).ready(function() {
 ###Screeshot
 ![class clickable](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot17.png)
 
+###Day 50
+
+Task:
+Make a "cat vs dog" page - if you click a button for the cat to meow, the dog should bark back, and vis versa. Include the same deleting functionality as in talk.html (but re-write the code yourself!).
+
+Beware of typos! Today I spent 40mins deconstructing my code as I was unable to implement js into my webpage. After vetting through each line of the code I later found out that my mistatke was due to a typo when creating my scripts.js file. 
+
