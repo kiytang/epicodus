@@ -25,6 +25,7 @@ $(document).ready(function() {
 	});
 
 	$("button#dog").click(function() {
+		alert("You have chose Droopy to voice first")
 		$("ul#starter").prepend("<li>bark bark <span class='clickable'>[x]</span></li>");
 		$("ul#response").prepend("<li> meow meow <span class='clickable'>[x]</span></li>");
 
