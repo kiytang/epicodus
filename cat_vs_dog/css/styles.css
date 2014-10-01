@@ -15,3 +15,15 @@ p {
 .clickable:hover {
   text-decoration: underline;
 }
+
+.img {
+  width: 30%;
+}
+
+.button {
+	color: red
+}
+
+.image {
+	color: blue;
+}
