@@ -21,9 +21,5 @@ $(document).ready(function() {
 		$("ul#response").children('li').first().click(function() {
 			$(this).remove();
 		})
-
-
 	});	
-
-
 });
