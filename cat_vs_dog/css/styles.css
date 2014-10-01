@@ -6,3 +6,12 @@ h1 {
 p {
 	font-family: Rockwell;
 }
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
