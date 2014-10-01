@@ -11,6 +11,18 @@ $(document).ready(function() {
 		})
 	});
 
+	$("img#cat_img").click(function() {
+		$("ul#starter").prepend("<li>meow <span class='clickable'>[x]</span></li>");
+		$("ul#response").prepend("<li>bark bark <span class='clickable'>[x]</span></li>");
+
+		$("ul#starter").children("li").first().click(function() {
+			$(this).remove();
+		})
+		$("ul#response").children("li").first().click(function() {
+			$(this).remove();
+		})
+	});
+
 	$("button#dog").click(function() {
 		$("ul#starter").prepend("<li>bark bark <span class='clickable'>[x]</span></li>");
 		$("ul#response").prepend("<li> meow meow <span class='clickable'>[x]</span></li>");
@@ -22,4 +34,16 @@ $(document).ready(function() {
 			$(this).remove();
 		})
 	});	
+
+	$("img#dog_img").click(function() {
+		$("ul#starter").prepend("<li> Hello, all you happy people. You know what? I'm the hero. <span class='clickable'>[x]</span></li>");
+		$("ul#response").prepend("<li>bark bark <span class='clickable'>[x]</span></li>");
+
+		$("ul#starter").children("li").first().click(function() {
+			$(this).remove();
+		})
+		$("ul#response").children("li").first().click(function() {
+			$(this).remove();
+		})
+	});
 });
