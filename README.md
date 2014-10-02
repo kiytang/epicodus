@@ -1045,3 +1045,8 @@ Make a "cat vs dog" page - if you click a button for the cat to meow, the dog sh
 
 Beware of typos! Today I spent 40mins deconstructing my code as I was unable to implement js into my webpage. After vetting through each line of the code I later found out that my mistatke was due to a typo when creating my scripts.js file. 
 
+###Day 51
+
+Today I contiued and completed Day 50's task.
+
+
