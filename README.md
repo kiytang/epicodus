@@ -1061,10 +1061,13 @@ Completed:
     <img src="img/mufasa.png" alt="Picture of a tough cat" class="img-responsive img-circle" id="cat_img">
   </div>
   <div class="col-md-6">
-    <img src="img/Droopy_dog.png" alt="Picture of a relaxed dog" class="img-responsive img-circle" id="dog_img">
+    <img src="img/Droopy_dog.png" alt="Picture of a relaxed dog" class="img-responsive img-thumbnail" id="dog_img">
   </div>
 </div>
 ```
+
+Note:
+In the above code, I have made the images both responsice-firendly via the `img-responsive` class and have also styled the image using both the `img-circle` and `img-thumbnail` class.
 
 ###Day 51
 
