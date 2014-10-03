@@ -1045,8 +1045,31 @@ Make a "cat vs dog" page - if you click a button for the cat to meow, the dog sh
 
 Beware of typos! Today I spent 40mins deconstructing my code as I was unable to implement js into my webpage. After vetting through each line of the code I later found out that my mistatke was due to a typo when creating my scripts.js file. 
 
+Completed:
+
+- Added `<span>` tag to specify the text colour for both `button` and `image`
+
+```sh
+<p>Click on a <span class="button">button</span> or <span class="image">image</span> to begin a conversation between Mufasa and Droopy</p>
+```
+
+- In addition I added two clickable images that would start initiate a conversation between cat and dog.
+
+```sh
+<div class="row">
+  <div class="col-md-6">
+    <img src="img/mufasa.png" alt="Picture of a tough cat" class="img-responsive img-circle" id="cat_img">
+  </div>
+  <div class="col-md-6">
+    <img src="img/Droopy_dog.png" alt="Picture of a relaxed dog" class="img-responsive img-circle" id="dog_img">
+  </div>
+</div>
+```
+
 ###Day 51
 
 Today I contiued and completed Day 50's task.
+
+Extra credit: Have you noticed how there's a lot of repetition in you JavaScript? On talk.html, there's three sections that select a button, attach a click event listener, and pass a callback that looks the same except for the message. The only things that differ among them are the ID of the button and the message. Eliminate this repetition by creating a function that accepts two arguments for the ID and the message, and then finds the appropriate button and binds a callback with the appropriate message. 
 
 
