@@ -14,11 +14,21 @@ Make a "cat vs dog" page - if you click a button for the cat to meow, the dog sh
 	<body>
 		<div class="container">
 			<h1>A afternoon tea discussion between Mufasa and Droopy</h1>
-			<p>Click a button to engage a conversation</p>
+			<p>Click on a <span class="button">button</span> or <span class="image">image</span> to begin a conversation between Mufasa and Droopy</p>
 
 			<button class="btn btn-primary" id="cat">"Mufasa"</button>
 			<button class="btn btn-inverse" id="dog">"Droopy"</button>
 
+			<div class="row">
+				<div class="col-md-6">
+					<img src="img/mufasa.png" alt="Picture of a tough cat" class="img-responsive img-circle" id="cat_img">
+			  </div>
+			  <div class="col-md-6">	
+			  	<img src="img/Droopy_dog.png" alt="Picture of a relaxed dog" class="img-responsive img-thumbnail" id="dog_img">
+			  </div>
+			</div>
+
+			  <!-- <img src="http://a.dilcdn.com/bl/wp-content/uploads/sites/8/2012/7/cat-angry-624x468.jpg" alt="Picture of a tough cat" class="img-responsive img-circle" id="c_img"> -->
 			<div class="row">
 				<div class="col-md-6">
 					<h2>You said:</h2>
