@@ -8,12 +8,12 @@ $(document).ready(function() {
 		var nounInput = $("input#noun").val();
 
 
-		$('.person1').append("blah blah");
-		$('.person2').append("blah blah");
-		$('.animal').append("blah blah");
-		$('.exclaimation').append("blah blah");
-		$('.verb').append("blah blah");
-		$('.noun').append("blah blah");
+		$('.person1').append("person1Input");
+		$('.person2').append("person2Input");
+		$('.animal').append("animalInput");
+		$('.exclaimation').append("exclaimationInput");
+		$('.verb').append("verbInput");
+		$('.noun').append("nounInput");
 
 		$('#story').show();
 
