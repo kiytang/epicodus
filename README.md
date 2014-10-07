@@ -1067,7 +1067,7 @@ Completed:
 ```
 
 Note:
-In the above code, I have made the images both responsice-firendly via the `img-responsive` class and have also styled the image using both the `img-circle` and `img-thumbnail` class.
+In the above code, I have made the images both responsive-firendly via the `img-responsive` class and have also styled the image using both the `img-circle` and `img-thumbnail` class.
 
 ###Day 51
 
@@ -1075,4 +1075,11 @@ Today I contiued and completed Day 50's task.
 
 Extra credit: Have you noticed how there's a lot of repetition in you JavaScript? On talk.html, there's three sections that select a button, attach a click event listener, and pass a callback that looks the same except for the message. The only things that differ among them are the ID of the button and the message. Eliminate this repetition by creating a function that accepts two arguments for the ID and the message, and then finds the appropriate button and binds a callback with the appropriate message. 
 
+###Day 52
 
+###Task
+Forms
+
+###What I learnt
+
+The `event.preventDefault()` method stops the default action of an element from occuring.
