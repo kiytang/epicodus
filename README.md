@@ -1092,3 +1092,26 @@ Create a page that asks the user to type something into a field, and when they s
 ###Day 54
 
 ####Task:
+
+###What I learnt
+
+JavaScript Callback or Higher order function
+A callback function, is a function that is passed to another function (let's call this other function "otherFunction") as a parameter, and the callback function is called (excuted) inside otherFunction.
+
+Below is a simple use of a callback function in jQuery:
+
+```sh
+//the item in the click method's parameter is a function, not a variable.
+//the item is a callback function
+$("#btn_1").click(function(){
+  alert("Btn 1 clicked");
+});
+```
+As you can see in the preceeding example, we pass a function as a parameter to the click method. The click method will call (execute) the callback function we passed to it. Note we have passed a anonymous function(a function without a name) to the `click` method as a parameter.
+
+Note:
+In JS, functions are first class objects, which means functions can be used in a first-class manner like objects, since they are in fact objects themselves: They can be:
+- stored in variables, 
+- passed as arguments to functions, 
+- created within functions,
+- returned from functions
