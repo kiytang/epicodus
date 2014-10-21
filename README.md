@@ -1134,7 +1134,7 @@ Note: If no parameter is specified, this method will remove ALL class names from
 The method is often used with `.addClass()` to switch element's classes from one to another, like so:
 
 ```sh
-$("p").removeClass("banana apple").addClass("pineapple") ```
+$("p").removeClass("banana apple").addClass("pineapple")```
 
 Here, the `banana` and `apple` classes are removed from all paragraphs, while `pineapple` is added.
 
