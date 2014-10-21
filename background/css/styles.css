@@ -1,4 +1,9 @@
-.green-background {
+.change-background {
 	background-color: green;
-	color: white
+	color: white;
+}
+
+.original-background {
+	background-color: white;
+	color: black;
 }
