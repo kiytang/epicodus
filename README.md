@@ -1081,7 +1081,14 @@ Extra credit: Have you noticed how there's a lot of repetition in you JavaScript
 Forms
 
 ###What I learnt
+$(document).ready(function():   Defer loading until the document is ready.
+When the form submits we want to take a action to insert the stuff into the spans. The way we bind to a to a form submitting, we need to select the form with js, look for id blanks and inside the id of blanks we grab the form. Then we attach a event listener for when a form is submited(submit)  and pass a callback fuction that will be run when form is submitted.
+Inside the function we add:
+$('.person1').append("blah blah");
 
+span person1 we want to append to
+
+Add a  paramenter to the callback fucntion called event:
 The `event.preventDefault()` method stops the default action of an element from occuring.
 
 ###Day 53
@@ -1115,3 +1122,20 @@ In JS, functions are first class objects, which means functions can be used in a
 - passed as arguments to functions, 
 - created within functions,
 - returned from functions
+
+###Day 55
+
+
+`.removeClass`
+The removeClass() method removes one or more class names from the selected elements.
+
+Note: If no parameter is specified, this method will remove ALL class names from the selected elements.
+
+The method is often used with `.addClass()` to switch element's classes from one to another, like so:
+
+```sh
+$("p").removeClass("banana apple").addClass("pineapple") ```
+
+Here, the `banana` and `apple` classes are removed from all paragraphs, while `pineapple` is added.
+
+To replace all existing classes with another class, we can use `.attr( "class", "newClass" )` instead.
