@@ -19,3 +19,8 @@ img {
 	float:right;
 }
 
+.change-background {
+	background-color: yellow;
+	border: 20px solid purple; 
+}
+
