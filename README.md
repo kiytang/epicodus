@@ -1172,3 +1172,70 @@ This example will also allow for a change the CSS of an element with jQuery and 
  1/First we are mixing our concerns. JS is responsible for how the page behaves; CSS is responsible for how it looks. In thia example we have placed how the page should looks in our JavaScript. This makes it difficult for other programmers who might need to change this page in the future to know where to look for the appropriate code.
  
  2/ You loose the biggest advantage os usinf CSS: the ability to create a class and re-use that style across elements and pages. Here, when we put a style in our JS, it cannot be re-used.
+
+
+###Day 56
+
+###Task:
+Update your boring lecture page so that when somebody clicks on a paragraph, it highlights it and adds a box around the edges.
+
+In order to complete this task I completed the folowing steps:
+
+ 1/ Added the necessary links to jQuery:
+
+```sh
+  <script src="js/jquery-1.11.1 (1).js"></script>
+  <script src="js/scripts.js"></script>
+```
+
+To keep my application consistent with my other examples, I also linked to Bootstap:
+
+`<link href="css/bootstrap.css" rel="stylesheet" type="styles/css">`
+
+ 2/ I specifically separated the paragraphs so that each had their unique hightlight and border color. To implement this I first added `<id>'s` to the individual paragraphs:
+
+```sh
+<p id="first"> Here is an intro. "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    
+<p id="second">And here is the full version. "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  
+<p id="third">Here is a bit more stuff. "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+```
+
+3/ Then in `scripts.js` I added the following:
+
+```sh
+$(document).ready(function() {
+    $("p#first").click(function() {
+    $("p#first").removeClass();
+    $("p#first").addClass("change-background");
+    });
+    
+    $("p#second").click(function() {
+    $("p#second").addClass("second-background");
+  });
+})
+```
+
+4/ Here I added the following in CSS
+
+```sh
+.change-background {
+    background-color: yellow;
+  border: 20px solid purple; 
+}
+
+.second-background {
+  background-color: black;
+  color: white;
+  border: 5px dashed red;
+}
+```
+
+###Screenshot
+![Highlight and border](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot18.png)
+
+
+
+
+
