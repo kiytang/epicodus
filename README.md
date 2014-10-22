@@ -1125,7 +1125,7 @@ In JS, functions are first class objects, which means functions can be used in a
 
 ###Day 55
 
-
+###What I learnt
 `.removeClass`
 The removeClass() method removes one or more class names from the selected elements.
 
@@ -1134,8 +1134,41 @@ Note: If no parameter is specified, this method will remove ALL class names from
 The method is often used with `.addClass()` to switch element's classes from one to another, like so:
 
 ```sh
-$("p").removeClass("banana apple").addClass("pineapple")```
+$("p").removeClass("banana apple").addClass("pineapple")
+```
 
 Here, the `banana` and `apple` classes are removed from all paragraphs, while `pineapple` is added.
 
 To replace all existing classes with another class, we can use `.attr( "class", "newClass" )` instead.
+
+`.addClass(className)`
+Adds the specified class(es) to each of the set matched elements.
+
+Example:
+```sh
+$(document).ready(function() {
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
+});
+```
+In the above when a user clicks the green button, jQuery will add the green-background class to the `<body>` element. In order for the background color to change, we then can go into our `styles.css` and create the folowing:
+
+```sh
+.green-background {
+  background-color: green;
+}
+```
+
+Example of bad practices:
+```sh
+$("button#green").click(function() {
+  $("body").css("background-color", "green");
+});
+```
+This example will also allow for a change the CSS of an element with jQuery and at first appearences may seem more self-explanatory. However, this method is generally considered as bad practice for the following reasons:
+ 
+ 1/First we are mixing our concerns. JS is responsible for how the page behaves; CSS is responsible for how it looks. In thia example we have placed how the page should looks in our JavaScript. This makes it difficult for other programmers who might need to change this page in the future to know where to look for the appropriate code.
+ 
+ 2/ You loose the biggest advantage os usinf CSS: the ability to create a class and re-use that style across elements and pages. Here, when we put a style in our JS, it cannot be re-used.
