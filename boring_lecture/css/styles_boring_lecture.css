@@ -24,3 +24,9 @@ img {
 	border: 20px solid purple; 
 }
 
+.second-background {
+	background-color: black;
+	color: white;
+	border: 5px dashed red;
+}
+
