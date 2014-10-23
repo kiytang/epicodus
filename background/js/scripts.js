@@ -13,6 +13,6 @@ $(document).ready(function() {
 		$("#rectangle").animate({height: "600px"});
 	});
 	$("#btn2").click(function() {
-		$("#rectangle").animate({height: "100px"});
+		$("#rectangle	").animate({height: "100px"});
 	});
 })
