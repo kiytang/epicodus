@@ -7,3 +7,14 @@
 	background-color: white;
 	color: black;
 }
+
+#btn1, #btn2 {
+	background-color: grey;
+}
+
+#rectangle {
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	margin: 6px;
+}
