@@ -1,5 +1,5 @@
 	$(document).ready(function() {
-		var age = prompt("How old are you?");
+		var age = parseInt(prompt("How old are you?"));
 
 		if(age>=21) {
 			$('#drinks').show();
