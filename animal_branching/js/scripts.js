@@ -1,9 +1,9 @@
 $(document).ready(function() {
-	var animal = prompt("Choose from insect, turtle or snake");
+	var animal = prompt("For more information, please type 'insect', 'turtle' or 'snake'");
 
-	if (animal === insect) {
+	if (animal === 'insect') {
 		$('#insect').show();
-	} else if (animal === turtle) {
+	} else if (animal === 'turtle') {
 		$('#turtle').show();
 	} else {
 		$('#snake').show();
