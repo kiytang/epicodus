@@ -8,6 +8,6 @@ $(document).ready(function() {
 	} else if (animal === 'snake') {
 		$('#snake').show();
 	} else {
-		alert('Unreognised request, please try again');
+		alert('Unrecognised request, please try again');
 	};
 });
