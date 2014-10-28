@@ -1221,7 +1221,7 @@ $(document).ready(function() {
 
 ```sh
 .change-background {
-    background-color: yellow;
+  background-color: yellow;
   border: 20px solid purple; 
 }
 
@@ -1234,6 +1234,81 @@ $(document).ready(function() {
 
 ###Screenshot
 ![Highlight and border](https://raw.githubusercontent.com/kiytang/epicodus/master/Screen_Shot18.png)
+
+###Day 57
+
+###Task:
+Branching Practice:
+Make a couple web pages incorporating branching:
+
+A page with information about turtles, snakes, and insects that asks you which animal you'd like to learn about.
+
+```sh
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1 (1).js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Animal Selections</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Choose your animal</h1>
+      <p>Click the specific button to bring more information</p>
+
+      <div id="insect">
+        <h2>Insect</h2>
+        <ul>
+          <li>Insect body have three parts, the thorax, abdomen and head.</li>
+          <li>Insects have two antennae</li>
+          <li>Insects have three pairs of legs</li>
+          <li>Insects are cold blooded</li>
+        </ul>
+      </div>
+      
+      <div id="turtle"> 
+        <h2>Turtles</h2>
+        <ul>
+          <li>Turtles have existed for around 215 million years</li>
+          <li>The largest turtle is the leatheback sea turtle, can weigh over 900kg</li>
+          <li>The upper shell that helps protect them is called the a 'carapace'</li>
+        </ul>
+      </div>
+      
+      <div id="snake">  
+        <h2>Snakes</h2>
+        <ul>
+          <li>Snakes are carnivores</li>
+          <li>Snakes have internal ears, not external ears</li>
+          <li>Snakes cannot bite food so have to swallow it whole</li>
+          <li>Snakes smell with their tongues</li>
+        </ul> 
+      </div>
+    </div>
+  </body>
+  ```
+
+  ```sh
+  $(document).ready(function() {
+  var animal = prompt("For more information, please type either 'insect', 'turtle' or 'snake'");
+
+  if (animal === 'insect') {
+    $('#insect').show();
+  } else if (animal === 'turtle') {
+    $('#turtle').show();
+  } else if (animal === 'snake') {
+    $('#snake').show();
+  } else {
+    alert('Unrecognised request, please try again');
+  };
+});
+```
+A page with information about voting that displays different information to minors.
+A page for an amusement park that only shows you information on rides that you're tall enough to go on.
+
 
 
 
