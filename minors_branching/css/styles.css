@@ -1,3 +1,8 @@
-#parties, #under-18 {
+#vote, #under-18 {
 	display: none;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
 }
