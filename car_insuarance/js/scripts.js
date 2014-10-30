@@ -7,8 +7,7 @@ $(document).ready(function() {
 			alert('Under 17');
 			$('#under-17').show();
 			
-		} else 
-		if (age) {
+		} else if (age) {
 			var quote = (100-age)*3;
 			if (gender === 'male' && age < 26) {
 				quote += 50;
