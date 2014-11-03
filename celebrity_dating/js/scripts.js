@@ -14,9 +14,21 @@ $(document).ready(function() {
 			person === person_1;
 		}
 
-		else if (age < 17 {
+		else if (age < 17) {
 			alert('Under 17');
 			$('$under-17').show();
-		})
-	})
+		}
+
+		else if (age > 30) {
+			alert('Over 30');
+			$('$over-30').show();
+		}
+
+		$("#celebrity").empty().append(result);
+		$("#result").show();
+		} else {
+			alert('Please enter your age');
+		}
+		event.preventDefault();
+	});
 })
