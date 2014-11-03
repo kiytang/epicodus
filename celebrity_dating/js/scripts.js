@@ -3,32 +3,33 @@ $(document).ready(function() {
 		var age = parseInt($("input#age").val());
 		var gender = $("select#gender").val();
 
-		var celebrity_1 = "Mickey Mouse"
-		var celebrity_2 = "Miss Piggy"
+		var celebrity_1 = "Mickey Mouse";
+		var celebrity_2 = "Miss Piggy";
 
 		if (gender === 'male') {
-			person = person_2;
+			date = celebrity_2;
 		}
 
-		elsif (gender == 'female') {
-			person === person_1;
+		else if (gender == 'female') {
+			date === celebrity_1;
 		}
 
 		else if (age < 17) {
 			alert('Under 17');
-			$('$under-17').show();
+			$('$too-young').show();
 		}
 
 		else if (age > 30) {
 			alert('Over 30');
-			$('$over-30').show();
+			$('#too-old').show();
 		}
 
-		$("#celebrity").empty().append(result);
+		$("#celebrity").empty().append(date);
 		$("#result").show();
+		
 		} else {
 			alert('Please enter your age');
 		}
 		event.preventDefault();
 	});
-})
+});
