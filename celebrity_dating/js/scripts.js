@@ -7,23 +7,23 @@ $(document).ready(function() {
 		var celebrity_2 = "Miss Piggy";
 		var prediction = "";
 
-		if (gender === "Male") {
-			prediction = celebrity_2;
-		}
+		if (age) {
+			if (gender === "Male") {
+				prediction = celebrity_2;
+			}
 
-		else if (gender === "Female") {
-			prediction = celebrity_1;
-		}
+			else if (gender === "Female") {
+				prediction = celebrity_1;
+			}
 
-		else if (age < 17) {
-			alert('Under 17');
-			$("#too-young").show();
-		}
-
-		else if (age > 30) {
-			alert('Over 30');
-			$("#too-old").show();
-		}
+			else if (age < 17) {
+				alert('Under 17');
+				$("#too-young").show();
+			
+			} else if (age > 30) {
+				alert('Over 30');
+				$("#too-old").show();
+			}
 
 		$("#celebrity").empty().append(prediction);
 		$("#result").show();
