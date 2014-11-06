@@ -15,6 +15,7 @@ $(document).ready(function() {
 
 			$("#rate").empty().append(quote);
 			$("#quote").show();
+			
 		} else {
 			alert('Please enter your age.');
 		}	
