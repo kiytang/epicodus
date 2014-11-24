@@ -3,13 +3,13 @@ jQuery(document).ready(function($) {
 
 	for (var i = 1; i <= number; i++) {
 		if (i % 15 === 0) {
-			$('.row').append('<li>Ping-Pong</li>');
+			$('.inner').append('<li>Ping-Pong</li>');
 		} else if (i % 5 === 0) {
-			$('.row').append('<li>Pong</li>');
+			$('.inner').append('<li>Pong</li>');
 		} else if (i % 3 === 0) {
-			$('.row').append('<li>Ping</li>');
+			$('.inner').append('<li>Ping</li>');
 		}	else {
-			$('.row').append('<li>' + i + '</li>');
+			$('.inner').append('<li>' + i + '</li>');
 		}
 	}
 });
