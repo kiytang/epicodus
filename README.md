@@ -1310,7 +1310,30 @@ A page with information about voting that displays different information to mino
 A page for an amusement park that only shows you information on rides that you're tall enough to go on.
 
 
+###Day 58
 
+###Task: jQuery Selectors and Filters: Attribute Filters
+
+[attribute]: only includes the element in the result set if that attribute exists on the element.
+  eg: If we only want to select paragraphs that have a class atribute" 
+  $("p[class]").css('border', "3px solid red");
+
+[attribute=value]: Checks to see if the attributes' value is equal to the value that you supply
+ eg: Filter paragraphs that have an id attribute equal to para1
+  $("p[id=para1]").css('border', "3px solid red");
+
+[attribute!=value]: only includes the element in the result if the attribute does not have the value that is listed here.
+
+The next two below are similar to regular expressions in JavaScript
+
+[attribute^=value]: checks to see if the attribute starts with the string that you give here
+eg: Find paragraph that have the id attribute but it has to start with the string "para"
+$("p[id^para]").css('border', "3px solid red");
+
+[attribute*=value]: checks to see if the attribute ends with the value that you have given
+Below I will use a multiple requirement:
+Fiter paragraphs that have ids that start with para and it also has to have the language attribute that contains "en-"
+$("p[id^para] [lang*=en-").css('border', "3px solid red");
 
 
 
