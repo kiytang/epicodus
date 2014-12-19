@@ -1336,4 +1336,84 @@ Fiter paragraphs that have ids that start with para and it also has to have the 
 $("p[id^para] [lang*=en-").css('border', "3px solid red");
 
 
+###Day 59
+
+Task: COmplete the folowing in Ruby:
+
+Fixnum:
++()
+-()
+*()
+/()
+**() # This means take whatever is in the box (the receiver) and raise it to the power of whatever Fixnum is in the argument.
+
+String:
+split()
+join()
+capitalize()
+reverse()
+split!()
+join!()
+capitalize!()
+reverse!()
+
+```sh
+Fixnum:
+
+2.0.0-p247 :187 > number = 80
+ => 80
+
+2.0.0-p247 :188 > number + 19
+ => 99
+
+2.0.0-p247 :189 > number
+ => 80
+
+2.0.0-p247 :190 > number - 8
+ => 72
+
+2.0.0-p247 :191 > number
+ => 80
+
+2.0.0-p247 :192 > number *13
+ => 1040
+
+2.0.0-p247 :193 > number
+ => 80
+
+2.0.0-p247 :194 > number / 5
+ => 16
+
+2.0.0-p247 :195 > number
+ => 80
+
+2.0.0-p247 :196 > number ** 2
+ => 6400
+
+2.0.0-p247 :197 > number
+ => 80
+
+
+
+String:
+
+join()
+2.0.0-p247 :227 > a = ["ciao", "mondo"]
+ => ["ciao", "mondo"]
+
+2.0.0-p247 :228 > a.join
+ => "ciaomondo"
+
+2.0.0-p247 :251 > greetings.capitalize!
+ => "Merry christmas"
+
+2.0.0-p247 :252 > greetings
+ => "Merry christmas"
+
+2.0.0-p247 :253 > greetings.reverse!
+ => "samtsirhc yrreM"
+
+2.0.0-p247 :254 > greetings
+ => "samtsirhc yrreM”
+ ```
 
