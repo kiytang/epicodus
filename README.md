@@ -1338,28 +1338,27 @@ $("p[id^para] [lang*=en-").css('border', "3px solid red");
 
 ###Day 59
 
-Task: COmplete the folowing in Ruby:
+###Task: Complete the folowing in Ruby:
 
 Fixnum:
-+()
--()
-*()
-/()
-**() # This means take whatever is in the box (the receiver) and raise it to the power of whatever Fixnum is in the argument.
+- +()
+- -()
+- *()
+- /()
+- **() # This means take whatever is in the box (the receiver) and raise it to the power of whatever Fixnum is in the argument.
 
 String:
-split()
-join()
-capitalize()
-reverse()
-split!()
-join!()
-capitalize!()
-reverse!()
+- split()
+- join()
+- capitalize()
+- reverse()
+- split!()
+- join!()
+- capitalize!()
+- reverse!()
 
 ```sh
 Fixnum:
-
 2.0.0-p247 :187 > number = 80
  => 80
 
@@ -1392,11 +1391,8 @@ Fixnum:
 
 2.0.0-p247 :197 > number
  => 80
-
-
-
+ 
 String:
-
 join()
 2.0.0-p247 :227 > a = ["ciao", "mondo"]
  => ["ciao", "mondo"]
@@ -1416,4 +1412,3 @@ join()
 2.0.0-p247 :254 > greetings
  => "samtsirhc yrreM”
  ```
-
